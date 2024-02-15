@@ -1,0 +1,27 @@
+# BUSCO version is: 5.5.0 
+# The lineage dataset is: stramenopiles_odb10 (Creation date: 2024-01-08, number of genomes: 27, number of BUSCOs: 100)
+# Summarized benchmarking in BUSCO notation for file /busco_wd/protein.faa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:92.0%[S:91.0%,D:1.0%],F:6.0%,M:2.0%,n:100	   
+	92	Complete BUSCOs (C)			   
+	91	Complete and single-copy BUSCOs (S)	   
+	1	Complete and duplicated BUSCOs (D)	   
+	6	Fragmented BUSCOs (F)			   
+	2	Missing BUSCOs (M)			   
+	100	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	busco: 5.5.0
+	sepp: 4.5.1
+
+Placement file versions:
+	list_of_reference_markers.eukaryota_odb10.2019-12-16.txt
+	tree.eukaryota_odb10.2019-12-16.nwk
+	tree_metadata.eukaryota_odb10.2019-12-16.txt
+	supermatrix.aln.eukaryota_odb10.2019-12-16.faa
+	mapping_taxids-busco_dataset_name.eukaryota_odb10.2019-12-16.txt
+	mapping_taxid-lineage.eukaryota_odb10.2019-12-16.txt
