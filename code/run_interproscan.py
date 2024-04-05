@@ -28,5 +28,5 @@ if __name__ == '__main__':
     from gsmmutils.utils import utils
     utils.CONFIG_PATH = "../config"
     ips = InterProScanDocker(server='palsson', interproscan_directory="/home/ecunha/interpro/interproscan-5.64-96.0")
-    genomes = ["we_3730_nuc"] #["ASM24072v1", "Ectocarpus", "NagaB31_1.0", "Noceanica_IMET1", "Nsalina_CCMP1776", "Phaeodactylum"]  #
+    genomes = ["we_3730_nuc"] #["ASM24072v1", "Ectocarpus_siliculosus_Ec32", "NagaB31_1.0", "Noceanica_IMET1", "Nsalina_CCMP1776", "Phaeodactylum"]  #
     run_interproscan(ips, genomes)
