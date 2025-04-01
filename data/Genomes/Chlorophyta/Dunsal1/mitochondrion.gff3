@@ -1,0 +1,115 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region GQ250045.1 1 28331
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3046
+GQ250045.1	Genbank	region	1	28331	.	+	.	ID=GQ250045.1:1..28331;Dbxref=taxon:3046;Is_circular=true;Name=MT;gbkey=Src;genome=mitochondrion;mol_type=genomic DNA;strain=CCAP 19/18
+GQ250045.1	Genbank	gene	1440	2735	.	+	.	ID=gene-rrnS2;Name=rrnS2;gbkey=Gene;gene=rrnS2;gene_biotype=rRNA
+GQ250045.1	Genbank	rRNA	1440	2735	.	+	.	ID=rna-rrnS2;Parent=gene-rrnS2;Note=fragment 2;gbkey=rRNA;gene=rrnS2;product=small subunit ribosomal RNA
+GQ250045.1	Genbank	exon	1440	2735	.	+	.	ID=exon-rrnS2-1;Parent=rna-rrnS2;Note=fragment 2;gbkey=rRNA;gene=rrnS2;product=small subunit ribosomal RNA
+GQ250045.1	Genbank	exon	1440	2024	.	+	.	ID=id-rrnS2-1;Parent=gene-rrnS2;exon_number=1;gbkey=exon;gene=rrnS2;number=1
+GQ250045.1	Genbank	exon	2219	2255	.	+	.	ID=id-rrnS2-2;Parent=gene-rrnS2;exon_number=2;gbkey=exon;gene=rrnS2;number=2
+GQ250045.1	Genbank	intron	2025	2218	.	+	.	ID=id-rrnS2;Parent=gene-rrnS2;Note=group I intron;exon_number=1;gbkey=intron;gene=rrnS2;number=1
+GQ250045.1	Genbank	intron	2256	2735	.	+	.	ID=id-rrnS2-3;Parent=gene-rrnS2;Note=group I intron;exon_number=2;gbkey=intron;gene=rrnS2;number=2
+GQ250045.1	Genbank	gene	2283	2735	.	+	.	ID=gene-orf151;Name=orf151;gbkey=Gene;gene=orf151;gene_biotype=protein_coding
+GQ250045.1	Genbank	CDS	2283	2735	.	+	0	ID=cds-ACS95030.1;Parent=gene-orf151;Dbxref=NCBI_GP:ACS95030.1;Name=ACS95030.1;Note=intronic open reading frame;gbkey=CDS;gene=orf151;product=GIY-YIG homing endonuclease;protein_id=ACS95030.1
+GQ250045.1	Genbank	gene	3223	3696	.	+	.	ID=gene-nad6;Name=nad6;gbkey=Gene;gene=nad6;gene_biotype=protein_coding
+GQ250045.1	Genbank	CDS	3223	3696	.	+	0	ID=cds-ACS95023.1;Parent=gene-nad6;Dbxref=NCBI_GP:ACS95023.1;Name=ACS95023.1;gbkey=CDS;gene=nad6;product=NADH dehydrogenase subunit 6;protein_id=ACS95023.1
+GQ250045.1	Genbank	gene	3747	5924	.	+	.	ID=gene-nad5;Name=nad5;gbkey=Gene;gene=nad5;gene_biotype=protein_coding
+GQ250045.1	Genbank	CDS	3747	4409	.	+	0	ID=cds-ACS95025.1;Parent=gene-nad5;Dbxref=NCBI_GP:ACS95025.1;Name=ACS95025.1;gbkey=CDS;gene=nad5;product=NADH dehydrogenase subunit 5;protein_id=ACS95025.1
+GQ250045.1	Genbank	CDS	4658	4909	.	+	0	ID=cds-ACS95025.1;Parent=gene-nad5;Dbxref=NCBI_GP:ACS95025.1;Name=ACS95025.1;gbkey=CDS;gene=nad5;product=NADH dehydrogenase subunit 5;protein_id=ACS95025.1
+GQ250045.1	Genbank	CDS	5163	5924	.	+	0	ID=cds-ACS95025.1;Parent=gene-nad5;Dbxref=NCBI_GP:ACS95025.1;Name=ACS95025.1;gbkey=CDS;gene=nad5;product=NADH dehydrogenase subunit 5;protein_id=ACS95025.1
+GQ250045.1	Genbank	exon	3747	4409	.	+	.	ID=id-nad5-1;Parent=gene-nad5;exon_number=1;gbkey=exon;gene=nad5;number=1
+GQ250045.1	Genbank	exon	4658	4909	.	+	.	ID=id-nad5-2;Parent=gene-nad5;exon_number=2;gbkey=exon;gene=nad5;number=2
+GQ250045.1	Genbank	exon	5163	5924	.	+	.	ID=id-nad5-3;Parent=gene-nad5;exon_number=3;gbkey=exon;gene=nad5;number=3
+GQ250045.1	Genbank	intron	4410	4657	.	+	.	ID=id-nad5;Parent=gene-nad5;Note=group I intron;exon_number=1;gbkey=intron;gene=nad5;number=1
+GQ250045.1	Genbank	intron	4910	5162	.	+	.	ID=id-nad5-4;Parent=gene-nad5;Note=group I intron;exon_number=2;gbkey=intron;gene=nad5;number=2
+GQ250045.1	Genbank	gene	7700	7775	.	+	.	ID=gene-trnM;Name=trnM;gbkey=Gene;gene=trnM;gene_biotype=tRNA
+GQ250045.1	Genbank	tRNA	7700	7775	.	+	.	ID=rna-trnM;Parent=gene-trnM;anticodon=(pos:7736..7738);codons=35;gbkey=tRNA;gene=trnM;product=tRNA-Met
+GQ250045.1	Genbank	exon	7700	7775	.	+	.	ID=exon-trnM-1;Parent=rna-trnM;anticodon=(pos:7736..7738);codons=35;gbkey=tRNA;gene=trnM;product=tRNA-Met
+GQ250045.1	Genbank	gene	7776	8398	.	+	.	ID=gene-rrnL5;Name=rrnL5;gbkey=Gene;gene=rrnL5;gene_biotype=rRNA
+GQ250045.1	Genbank	rRNA	7776	8398	.	+	.	ID=rna-rrnL5;Parent=gene-rrnL5;Note=fragment 5;gbkey=rRNA;gene=rrnL5;product=large subunit ribosomal RNA
+GQ250045.1	Genbank	exon	7776	8398	.	+	.	ID=exon-rrnL5-1;Parent=rna-rrnL5;Note=fragment 5;gbkey=rRNA;gene=rrnL5;product=large subunit ribosomal RNA
+GQ250045.1	Genbank	exon	7776	8039	.	+	.	ID=id-rrnL5-1;Parent=gene-rrnL5;exon_number=1;gbkey=exon;gene=rrnL5;number=1
+GQ250045.1	Genbank	exon	8247	8398	.	+	.	ID=id-rrnL5-2;Parent=gene-rrnL5;exon_number=2;gbkey=exon;gene=rrnL5;number=2
+GQ250045.1	Genbank	intron	8040	8246	.	+	.	ID=id-rrnL5;Parent=gene-rrnL5;Note=group I intron;exon_number=1;gbkey=intron;gene=rrnL5;number=1
+GQ250045.1	Genbank	gene	9525	10694	.	+	.	ID=gene-nad1;Name=nad1;gbkey=Gene;gene=nad1;gene_biotype=protein_coding
+GQ250045.1	Genbank	CDS	9525	10124	.	+	0	ID=cds-ACS95026.1;Parent=gene-nad1;Dbxref=NCBI_GP:ACS95026.1;Name=ACS95026.1;gbkey=CDS;gene=nad1;product=NADH dehydrogenase subunit 1;protein_id=ACS95026.1
+GQ250045.1	Genbank	CDS	10404	10694	.	+	0	ID=cds-ACS95026.1;Parent=gene-nad1;Dbxref=NCBI_GP:ACS95026.1;Name=ACS95026.1;gbkey=CDS;gene=nad1;product=NADH dehydrogenase subunit 1;protein_id=ACS95026.1
+GQ250045.1	Genbank	exon	9525	10124	.	+	.	ID=id-nad1-1;Parent=gene-nad1;exon_number=1;gbkey=exon;gene=nad1;number=1
+GQ250045.1	Genbank	exon	10404	10694	.	+	.	ID=id-nad1-2;Parent=gene-nad1;exon_number=2;gbkey=exon;gene=nad1;number=2
+GQ250045.1	Genbank	intron	10125	10403	.	+	.	ID=id-nad1;Parent=gene-nad1;Note=group I intron;exon_number=1;gbkey=intron;gene=nad1;number=1
+GQ250045.1	Genbank	gene	10729	12180	.	+	.	ID=gene-nad4;Name=nad4;gbkey=Gene;gene=nad4;gene_biotype=protein_coding
+GQ250045.1	Genbank	CDS	10729	12180	.	+	0	ID=cds-ACS95022.1;Parent=gene-nad4;Dbxref=NCBI_GP:ACS95022.1;Name=ACS95022.1;gbkey=CDS;gene=nad4;product=NADH dehydrogenase subunit 4;protein_id=ACS95022.1
+GQ250045.1	Genbank	gene	12433	16505	.	+	.	ID=gene-cox1;Name=cox1;gbkey=Gene;gene=cox1;gene_biotype=protein_coding
+GQ250045.1	Genbank	CDS	12433	12621	.	+	0	ID=cds-ACS95027.1;Parent=gene-cox1;Dbxref=NCBI_GP:ACS95027.1;Name=ACS95027.1;gbkey=CDS;gene=cox1;product=cytochrome oxidase subunit 1;protein_id=ACS95027.1
+GQ250045.1	Genbank	CDS	13289	13483	.	+	0	ID=cds-ACS95027.1;Parent=gene-cox1;Dbxref=NCBI_GP:ACS95027.1;Name=ACS95027.1;gbkey=CDS;gene=cox1;product=cytochrome oxidase subunit 1;protein_id=ACS95027.1
+GQ250045.1	Genbank	CDS	13749	14075	.	+	0	ID=cds-ACS95027.1;Parent=gene-cox1;Dbxref=NCBI_GP:ACS95027.1;Name=ACS95027.1;gbkey=CDS;gene=cox1;product=cytochrome oxidase subunit 1;protein_id=ACS95027.1
+GQ250045.1	Genbank	CDS	14282	14680	.	+	0	ID=cds-ACS95027.1;Parent=gene-cox1;Dbxref=NCBI_GP:ACS95027.1;Name=ACS95027.1;gbkey=CDS;gene=cox1;product=cytochrome oxidase subunit 1;protein_id=ACS95027.1
+GQ250045.1	Genbank	CDS	15195	15365	.	+	0	ID=cds-ACS95027.1;Parent=gene-cox1;Dbxref=NCBI_GP:ACS95027.1;Name=ACS95027.1;gbkey=CDS;gene=cox1;product=cytochrome oxidase subunit 1;protein_id=ACS95027.1
+GQ250045.1	Genbank	CDS	16254	16505	.	+	0	ID=cds-ACS95027.1;Parent=gene-cox1;Dbxref=NCBI_GP:ACS95027.1;Name=ACS95027.1;gbkey=CDS;gene=cox1;product=cytochrome oxidase subunit 1;protein_id=ACS95027.1
+GQ250045.1	Genbank	exon	12433	12621	.	+	.	ID=id-cox1-1;Parent=gene-cox1;exon_number=1;gbkey=exon;gene=cox1;number=1
+GQ250045.1	Genbank	exon	13289	13483	.	+	.	ID=id-cox1-2;Parent=gene-cox1;exon_number=2;gbkey=exon;gene=cox1;number=2
+GQ250045.1	Genbank	exon	13749	14075	.	+	.	ID=id-cox1-3;Parent=gene-cox1;exon_number=3;gbkey=exon;gene=cox1;number=3
+GQ250045.1	Genbank	exon	14282	14680	.	+	.	ID=id-cox1-4;Parent=gene-cox1;exon_number=4;gbkey=exon;gene=cox1;number=4
+GQ250045.1	Genbank	exon	15195	15365	.	+	.	ID=id-cox1-5;Parent=gene-cox1;exon_number=5;gbkey=exon;gene=cox1;number=5
+GQ250045.1	Genbank	exon	16254	16505	.	+	.	ID=id-cox1-6;Parent=gene-cox1;exon_number=6;gbkey=exon;gene=cox1;number=6
+GQ250045.1	Genbank	intron	12622	13288	.	+	.	ID=id-cox1;Parent=gene-cox1;Note=group I intron;exon_number=1;gbkey=intron;gene=cox1;number=1
+GQ250045.1	Genbank	intron	13484	13748	.	+	.	ID=id-cox1-7;Parent=gene-cox1;Note=group I intron;exon_number=2;gbkey=intron;gene=cox1;number=2
+GQ250045.1	Genbank	intron	14076	14281	.	+	.	ID=id-cox1-8;Parent=gene-cox1;Note=group I intron;exon_number=3;gbkey=intron;gene=cox1;number=3
+GQ250045.1	Genbank	intron	14681	15194	.	+	.	ID=id-cox1-9;Parent=gene-cox1;Note=group I intron;exon_number=4;gbkey=intron;gene=cox1;number=4
+GQ250045.1	Genbank	intron	15366	16253	.	+	.	ID=id-cox1-10;Parent=gene-cox1;Note=group I intron;exon_number=5;gbkey=intron;gene=cox1;number=5
+GQ250045.1	Genbank	gene	16566	17873	.	+	.	ID=gene-nad2;Name=nad2;gbkey=Gene;gene=nad2;gene_biotype=protein_coding
+GQ250045.1	Genbank	CDS	16566	17873	.	+	0	ID=cds-ACS95024.1;Parent=gene-nad2;Dbxref=NCBI_GP:ACS95024.1;Name=ACS95024.1;gbkey=CDS;gene=nad2;product=NADH dehydrogenase subunit 2;protein_id=ACS95024.1
+GQ250045.1	Genbank	gene	18849	19337	.	+	.	ID=gene-rrnS3;Name=rrnS3;gbkey=Gene;gene=rrnS3;gene_biotype=rRNA
+GQ250045.1	Genbank	rRNA	18849	19337	.	+	.	ID=rna-rrnS3;Parent=gene-rrnS3;Note=fragment 3;gbkey=rRNA;gene=rrnS3;product=small subunit ribosomal RNA
+GQ250045.1	Genbank	exon	18849	19337	.	+	.	ID=exon-rrnS3-1;Parent=rna-rrnS3;Note=fragment 3;gbkey=rRNA;gene=rrnS3;product=small subunit ribosomal RNA
+GQ250045.1	Genbank	gene	20282	20423	.	+	.	ID=gene-rrnL3;Name=rrnL3;gbkey=Gene;gene=rrnL3;gene_biotype=rRNA
+GQ250045.1	Genbank	rRNA	20282	20423	.	+	.	ID=rna-rrnL3;Parent=gene-rrnL3;Note=fragment 3;gbkey=rRNA;gene=rrnL3;product=large subunit ribosomal RNA
+GQ250045.1	Genbank	exon	20282	20423	.	+	.	ID=exon-rrnL3-1;Parent=rna-rrnL3;Note=fragment 3;gbkey=rRNA;gene=rrnL3;product=large subunit ribosomal RNA
+GQ250045.1	Genbank	gene	20592	20906	.	+	.	ID=gene-rrnL2;Name=rrnL2;gbkey=Gene;gene=rrnL2;gene_biotype=rRNA
+GQ250045.1	Genbank	rRNA	20592	20906	.	+	.	ID=rna-rrnL2;Parent=gene-rrnL2;Note=fragment 2;gbkey=rRNA;gene=rrnL2;product=large subunit ribosomal RNA
+GQ250045.1	Genbank	exon	20592	20906	.	+	.	ID=exon-rrnL2-1;Parent=rna-rrnL2;Note=fragment 2;gbkey=rRNA;gene=rrnL2;product=large subunit ribosomal RNA
+GQ250045.1	Genbank	gene	21013	21085	.	+	.	ID=gene-trnW;Name=trnW;gbkey=Gene;gene=trnW;gene_biotype=tRNA
+GQ250045.1	Genbank	tRNA	21013	21085	.	+	.	ID=rna-trnW;Parent=gene-trnW;anticodon=(pos:21046..21048);codons=15;gbkey=tRNA;gene=trnW;product=tRNA-Trp
+GQ250045.1	Genbank	exon	21013	21085	.	+	.	ID=exon-trnW-1;Parent=rna-trnW;anticodon=(pos:21046..21048);codons=15;gbkey=tRNA;gene=trnW;product=tRNA-Trp
+GQ250045.1	Genbank	gene	21096	21169	.	+	.	ID=gene-trnQ;Name=trnQ;gbkey=Gene;gene=trnQ;gene_biotype=tRNA
+GQ250045.1	Genbank	tRNA	21096	21169	.	+	.	ID=rna-trnQ;Parent=gene-trnQ;anticodon=(pos:21130..21132);codons=26;gbkey=tRNA;gene=trnQ;product=tRNA-Gln
+GQ250045.1	Genbank	exon	21096	21169	.	+	.	ID=exon-trnQ-1;Parent=rna-trnQ;anticodon=(pos:21130..21132);codons=26;gbkey=tRNA;gene=trnQ;product=tRNA-Gln
+GQ250045.1	Genbank	gene	21232	21381	.	+	.	ID=gene-rrnL4;Name=rrnL4;gbkey=Gene;gene=rrnL4;gene_biotype=rRNA
+GQ250045.1	Genbank	rRNA	21232	21381	.	+	.	ID=rna-rrnL4;Parent=gene-rrnL4;Note=fragment 4;gbkey=rRNA;gene=rrnL4;product=large subunit ribosomal RNA
+GQ250045.1	Genbank	exon	21232	21381	.	+	.	ID=exon-rrnL4-1;Parent=rna-rrnL4;Note=fragment 4;gbkey=rRNA;gene=rrnL4;product=large subunit ribosomal RNA
+GQ250045.1	Genbank	gene	21626	21775	.	+	.	ID=gene-rrnS1;Name=rrnS1;gbkey=Gene;gene=rrnS1;gene_biotype=rRNA
+GQ250045.1	Genbank	rRNA	21626	21775	.	+	.	ID=rna-rrnS1;Parent=gene-rrnS1;Note=fragment 1;gbkey=rRNA;gene=rrnS1;product=small subunit ribosomal RNA
+GQ250045.1	Genbank	exon	21626	21775	.	+	.	ID=exon-rrnS1-1;Parent=rna-rrnS1;Note=fragment 1;gbkey=rRNA;gene=rrnS1;product=small subunit ribosomal RNA
+GQ250045.1	Genbank	gene	21812	21949	.	+	.	ID=gene-rrnL1;Name=rrnL1;gbkey=Gene;gene=rrnL1;gene_biotype=rRNA
+GQ250045.1	Genbank	rRNA	21812	21949	.	+	.	ID=rna-rrnL1;Parent=gene-rrnL1;Note=fragment 1;gbkey=rRNA;gene=rrnL1;product=large subunit ribosomal RNA
+GQ250045.1	Genbank	exon	21812	21949	.	+	.	ID=exon-rrnL1-1;Parent=rna-rrnL1;Note=fragment 1;gbkey=rRNA;gene=rrnL1;product=large subunit ribosomal RNA
+GQ250045.1	Genbank	gene	22030	23716	.	+	.	ID=gene-rrnL6;Name=rrnL6;gbkey=Gene;gene=rrnL6;gene_biotype=rRNA
+GQ250045.1	Genbank	rRNA	22030	23716	.	+	.	ID=rna-rrnL6;Parent=gene-rrnL6;Note=fragment 6;gbkey=rRNA;gene=rrnL6;product=large subunit ribosomal RNA
+GQ250045.1	Genbank	exon	22030	23716	.	+	.	ID=exon-rrnL6-1;Parent=rna-rrnL6;Note=fragment 6;gbkey=rRNA;gene=rrnL6;product=large subunit ribosomal RNA
+GQ250045.1	Genbank	exon	22030	22288	.	+	.	ID=id-rrnL6-1;Parent=gene-rrnL6;exon_number=1;gbkey=exon;gene=rrnL6;number=1
+GQ250045.1	Genbank	exon	22534	22585	.	+	.	ID=id-rrnL6-2;Parent=gene-rrnL6;exon_number=2;gbkey=exon;gene=rrnL6;number=2
+GQ250045.1	Genbank	exon	23016	23102	.	+	.	ID=id-rrnL6-3;Parent=gene-rrnL6;exon_number=3;gbkey=exon;gene=rrnL6;number=3
+GQ250045.1	Genbank	exon	23482	23716	.	+	.	ID=id-rrnL6-4;Parent=gene-rrnL6;exon_number=4;gbkey=exon;gene=rrnL6;number=4
+GQ250045.1	Genbank	intron	22289	22533	.	+	.	ID=id-rrnL6;Parent=gene-rrnL6;Note=group I intron;exon_number=1;gbkey=intron;gene=rrnL6;number=1
+GQ250045.1	Genbank	intron	22586	23015	.	+	.	ID=id-rrnL6-5;Parent=gene-rrnL6;Note=group I intron;exon_number=2;gbkey=intron;gene=rrnL6;number=2
+GQ250045.1	Genbank	intron	23103	23481	.	+	.	ID=id-rrnL6-6;Parent=gene-rrnL6;Note=group I intron;exon_number=3;gbkey=intron;gene=rrnL6;number=3
+GQ250045.1	Genbank	gene	24440	28331	.	+	.	ID=gene-cob;Name=cob;gbkey=Gene;gene=cob;gene_biotype=protein_coding
+GQ250045.1	Genbank	CDS	24440	24868	.	+	0	ID=cds-ACS95028.1;Parent=gene-cob;Dbxref=NCBI_GP:ACS95028.1;Name=ACS95028.1;gbkey=CDS;gene=cob;product=cytochrome b;protein_id=ACS95028.1
+GQ250045.1	Genbank	CDS	25744	25818	.	+	0	ID=cds-ACS95028.1;Parent=gene-cob;Dbxref=NCBI_GP:ACS95028.1;Name=ACS95028.1;gbkey=CDS;gene=cob;product=cytochrome b;protein_id=ACS95028.1
+GQ250045.1	Genbank	CDS	26047	26298	.	+	0	ID=cds-ACS95028.1;Parent=gene-cob;Dbxref=NCBI_GP:ACS95028.1;Name=ACS95028.1;gbkey=CDS;gene=cob;product=cytochrome b;protein_id=ACS95028.1
+GQ250045.1	Genbank	CDS	27675	27746	.	+	0	ID=cds-ACS95028.1;Parent=gene-cob;Dbxref=NCBI_GP:ACS95028.1;Name=ACS95028.1;gbkey=CDS;gene=cob;product=cytochrome b;protein_id=ACS95028.1
+GQ250045.1	Genbank	CDS	27987	28331	.	+	0	ID=cds-ACS95028.1;Parent=gene-cob;Dbxref=NCBI_GP:ACS95028.1;Name=ACS95028.1;gbkey=CDS;gene=cob;product=cytochrome b;protein_id=ACS95028.1
+GQ250045.1	Genbank	exon	24440	24868	.	+	.	ID=id-cob-1;Parent=gene-cob;exon_number=1;gbkey=exon;gene=cob;number=1
+GQ250045.1	Genbank	exon	25744	25818	.	+	.	ID=id-cob-2;Parent=gene-cob;exon_number=2;gbkey=exon;gene=cob;number=2
+GQ250045.1	Genbank	exon	26047	26298	.	+	.	ID=id-cob-3;Parent=gene-cob;exon_number=3;gbkey=exon;gene=cob;number=3
+GQ250045.1	Genbank	exon	27675	27746	.	+	.	ID=id-cob-4;Parent=gene-cob;exon_number=4;gbkey=exon;gene=cob;number=4
+GQ250045.1	Genbank	exon	27987	28331	.	+	.	ID=id-cob-5;Parent=gene-cob;exon_number=5;gbkey=exon;gene=cob;number=5
+GQ250045.1	Genbank	intron	24869	25743	.	+	.	ID=id-cob;Parent=gene-cob;Note=group I intron;exon_number=1;gbkey=intron;gene=cob;number=1
+GQ250045.1	Genbank	intron	25819	26046	.	+	.	ID=id-cob-6;Parent=gene-cob;Note=group I intron;exon_number=2;gbkey=intron;gene=cob;number=2
+GQ250045.1	Genbank	intron	26299	27674	.	+	.	ID=id-cob-7;Parent=gene-cob;Note=group I intron;exon_number=3;gbkey=intron;gene=cob;number=3
+GQ250045.1	Genbank	intron	27747	27986	.	+	.	ID=id-cob-8;Parent=gene-cob;Note=group I intron;exon_number=5;gbkey=intron;gene=cob;number=5
+GQ250045.1	Genbank	gene	26684	27277	.	+	.	ID=gene-orf198;Name=orf198;gbkey=Gene;gene=orf198;gene_biotype=protein_coding;partial=true;start_range=.,26684
+GQ250045.1	Genbank	CDS	26684	27277	.	+	0	ID=cds-ACS95029.1;Parent=gene-orf198;Dbxref=NCBI_GP:ACS95029.1;Name=ACS95029.1;Note=LAGLIDADG DNA endonuclease family%3B similar to pfam00961 and pfam03161%3B start codon not determined%3B intronic open reading frame;gbkey=CDS;gene=orf198;partial=true;product=LAGLIDADG homing endonuclease;protein_id=ACS95029.1;start_range=.,26684
+

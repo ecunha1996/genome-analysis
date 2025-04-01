@@ -1,0 +1,42 @@
+##gff-version 3
+JAGTXO010000009.1	barrnap:0.9	rRNA	285811	285922	6.2e-15	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+JAGTXO010000009.1	barrnap:0.9	rRNA	509226	509337	6.7e-16	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+JAGTXO010000009.1	barrnap:0.9	rRNA	509964	510075	6.7e-16	-	.	Name=5S_rRNA;product=5S ribosomal RNA
+JAGTXO010000009.1	barrnap:0.9	rRNA	515697	515808	6.8e-16	-	.	Name=5S_rRNA;product=5S ribosomal RNA
+JAGTXO010000009.1	barrnap:0.9	rRNA	575091	575202	6.7e-16	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+JAGTXO010000009.1	barrnap:0.9	rRNA	575833	575944	6.7e-16	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+JAGTXO010000009.1	barrnap:0.9	rRNA	576554	576665	6.7e-16	-	.	Name=5S_rRNA;product=5S ribosomal RNA
+JAGTXO010000009.1	barrnap:0.9	rRNA	577296	577407	6.7e-16	-	.	Name=5S_rRNA;product=5S ribosomal RNA
+JAGTXO010000010.1	barrnap:0.9	rRNA	53512	53622	1e-12	+	.	Name=5S_rRNA;product=5S ribosomal RNA
+JAGTXO010000012.1	barrnap:0.9	rRNA	326849	327460	3.6e-159	+	.	Name=18S_rRNA;product=18S ribosomal RNA (partial);note=aligned only 32 percent of the 18S ribosomal RNA
+JAGTXO010000012.1	barrnap:0.9	rRNA	330118	331840	0	+	.	Name=28S_rRNA;product=28S ribosomal RNA (partial);note=aligned only 59 percent of the 28S ribosomal RNA
+JAGTXO010000024.1	barrnap:0.9	rRNA	113	1911	0	+	.	Name=18S_rRNA;product=18S ribosomal RNA
+JAGTXO010000024.1	barrnap:0.9	rRNA	2328	6116	0	+	.	Name=28S_rRNA;product=28S ribosomal RNA
+JAGTXO010000024.1	barrnap:0.9	rRNA	2332	2481	6.7e-30	+	.	Name=5_8S_rRNA;product=5.8S ribosomal RNA
+JAGTXO010000024.1	barrnap:0.9	rRNA	15342	17145	0	+	.	Name=18S_rRNA;product=18S ribosomal RNA
+JAGTXO010000024.1	barrnap:0.9	rRNA	17564	21352	0	+	.	Name=28S_rRNA;product=28S ribosomal RNA
+JAGTXO010000024.1	barrnap:0.9	rRNA	17568	17717	6.7e-30	+	.	Name=5_8S_rRNA;product=5.8S ribosomal RNA
+JAGTXO010000024.1	barrnap:0.9	rRNA	31082	32885	0	+	.	Name=18S_rRNA;product=18S ribosomal RNA
+JAGTXO010000024.1	barrnap:0.9	rRNA	33302	37090	0	+	.	Name=28S_rRNA;product=28S ribosomal RNA
+JAGTXO010000024.1	barrnap:0.9	rRNA	33306	33455	6.7e-30	+	.	Name=5_8S_rRNA;product=5.8S ribosomal RNA
+JAGTXO010000025.1	barrnap:0.9	rRNA	295118	295229	2.8e-12	-	.	Name=5S_rRNA;product=5S ribosomal RNA
+JAGTXO010000039.1	barrnap:0.9	rRNA	316288	317806	0	+	.	Name=28S_rRNA;product=28S ribosomal RNA (partial);note=aligned only 52 percent of the 28S ribosomal RNA
+JAGTXO010000039.1	barrnap:0.9	rRNA	327024	328827	0	+	.	Name=18S_rRNA;product=18S ribosomal RNA
+JAGTXO010000039.1	barrnap:0.9	rRNA	329244	333032	0	+	.	Name=28S_rRNA;product=28S ribosomal RNA
+JAGTXO010000039.1	barrnap:0.9	rRNA	329248	329397	6.7e-30	+	.	Name=5_8S_rRNA;product=5.8S ribosomal RNA
+JAGTXO010000039.1	barrnap:0.9	rRNA	342732	344535	0	+	.	Name=18S_rRNA;product=18S ribosomal RNA
+JAGTXO010000039.1	barrnap:0.9	rRNA	344952	348740	0	+	.	Name=28S_rRNA;product=28S ribosomal RNA
+JAGTXO010000039.1	barrnap:0.9	rRNA	344956	345105	6.7e-30	+	.	Name=5_8S_rRNA;product=5.8S ribosomal RNA
+JAGTXO010000039.1	barrnap:0.9	rRNA	358444	360247	0	+	.	Name=18S_rRNA;product=18S ribosomal RNA
+JAGTXO010000039.1	barrnap:0.9	rRNA	360663	362490	4e-296	+	.	Name=28S_rRNA;product=28S ribosomal RNA (partial);note=aligned only 62 percent of the 28S ribosomal RNA
+JAGTXO010000039.1	barrnap:0.9	rRNA	360668	360817	6.7e-30	+	.	Name=5_8S_rRNA;product=5.8S ribosomal RNA
+JAGTXO010000043.1	barrnap:0.9	rRNA	3094	4897	0	+	.	Name=18S_rRNA;product=18S ribosomal RNA
+JAGTXO010000043.1	barrnap:0.9	rRNA	5314	9102	0	+	.	Name=28S_rRNA;product=28S ribosomal RNA
+JAGTXO010000043.1	barrnap:0.9	rRNA	5318	5467	6.7e-30	+	.	Name=5_8S_rRNA;product=5.8S ribosomal RNA
+JAGTXO010000043.1	barrnap:0.9	rRNA	18329	20132	0	+	.	Name=18S_rRNA;product=18S ribosomal RNA
+JAGTXO010000043.1	barrnap:0.9	rRNA	20549	24337	0	+	.	Name=28S_rRNA;product=28S ribosomal RNA
+JAGTXO010000043.1	barrnap:0.9	rRNA	20553	20702	6.7e-30	+	.	Name=5_8S_rRNA;product=5.8S ribosomal RNA
+JAGTXO010000043.1	barrnap:0.9	rRNA	33544	35347	0	+	.	Name=18S_rRNA;product=18S ribosomal RNA
+JAGTXO010000043.1	barrnap:0.9	rRNA	35764	39552	0	+	.	Name=28S_rRNA;product=28S ribosomal RNA
+JAGTXO010000043.1	barrnap:0.9	rRNA	35768	35917	6.7e-30	+	.	Name=5_8S_rRNA;product=5.8S ribosomal RNA
+JAGTXO010000045.1	barrnap:0.9	rRNA	192235	192346	1e-15	-	.	Name=5S_rRNA;product=5S ribosomal RNA

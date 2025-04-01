@@ -1,0 +1,401 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region GQ250046.1 1 269044
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3046
+GQ250046.1	Genbank	region	1	269044	.	+	.	ID=GQ250046.1:1..269044;Dbxref=taxon:3046;Is_circular=true;Name=Pltd;gbkey=Src;genome=chloroplast;mol_type=genomic DNA;strain=CCAP 19/18
+GQ250046.1	Genbank	sequence_feature	1	127339	.	+	.	ID=id-GQ250046.1:1..127339;Note=large single-copy region (LSC);gbkey=misc_feature
+GQ250046.1	Genbank	sequence_feature	31	79	.	-	.	ID=id-GQ250046.1:31..79;Note=putative group II intron;gbkey=misc_feature
+GQ250046.1	Genbank	gene	2672	9850	.	-	.	ID=gene-ycf1;Name=ycf1;gbkey=Gene;gene=ycf1;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	2672	9850	.	-	0	ID=cds-ACS95031.1;Parent=gene-ycf1;Dbxref=NCBI_GP:ACS95031.1;Name=ACS95031.1;gbkey=CDS;gene=ycf1;product=hypothetical chloroplast protein RF1;protein_id=ACS95031.1;transl_table=11
+GQ250046.1	Genbank	gene	12224	12637	.	+	.	ID=gene-rpl16;Name=rpl16;gbkey=Gene;gene=rpl16;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	12224	12637	.	+	0	ID=cds-ACS95032.1;Parent=gene-rpl16;Dbxref=NCBI_GP:ACS95032.1;Name=ACS95032.1;gbkey=CDS;gene=rpl16;product=ribosomal protein L16;protein_id=ACS95032.1;transl_table=11
+GQ250046.1	Genbank	gene	13192	13551	.	+	.	ID=gene-rpl14;Name=rpl14;gbkey=Gene;gene=rpl14;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	13192	13551	.	+	0	ID=cds-ACS95033.1;Parent=gene-rpl14;Dbxref=NCBI_GP:ACS95033.1;Name=ACS95033.1;gbkey=CDS;gene=rpl14;product=ribosomal protein L14;protein_id=ACS95033.1;transl_table=11
+GQ250046.1	Genbank	gene	14172	14717	.	+	.	ID=gene-rpl5;Name=rpl5;gbkey=Gene;gene=rpl5;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	14172	14717	.	+	0	ID=cds-ACS95034.1;Parent=gene-rpl5;Dbxref=NCBI_GP:ACS95034.1;Name=ACS95034.1;gbkey=CDS;gene=rpl5;product=ribosomal protein L5;protein_id=ACS95034.1;transl_table=11
+GQ250046.1	Genbank	gene	15195	15629	.	+	.	ID=gene-rps8;Name=rps8;gbkey=Gene;gene=rps8;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	15195	15629	.	+	0	ID=cds-ACS95035.1;Parent=gene-rps8;Dbxref=NCBI_GP:ACS95035.1;Name=ACS95035.1;gbkey=CDS;gene=rps8;product=ribosomal protein S8;protein_id=ACS95035.1;transl_table=11
+GQ250046.1	Genbank	gene	16718	16807	.	+	.	ID=gene-psaA;Name=psaA;exception=trans-splicing;gbkey=Gene;gene=psaA;gene_biotype=protein_coding;part=1
+GQ250046.1	Genbank	gene	48436	48682	.	-	.	ID=gene-psaA;Name=psaA;exception=trans-splicing;gbkey=Gene;gene=psaA;gene_biotype=protein_coding;part=2
+GQ250046.1	Genbank	gene	199340	201758	.	-	.	ID=gene-psaA;Name=psaA;exception=trans-splicing;gbkey=Gene;gene=psaA;gene_biotype=protein_coding;part=3
+GQ250046.1	Genbank	CDS	16718	16807	.	+	0	ID=cds-ACS95112.1;Parent=gene-psaA;Dbxref=NCBI_GP:ACS95112.1;Name=ACS95112.1;exception=trans-splicing;gbkey=CDS;gene=psaA;part=1;product=photosystem I P700 chlorophyll a apoprotein A1;protein_id=ACS95112.1;transl_table=11
+GQ250046.1	Genbank	CDS	48436	48615	.	-	0	ID=cds-ACS95112.1;Parent=gene-psaA;Dbxref=NCBI_GP:ACS95112.1;Name=ACS95112.1;exception=trans-splicing;gbkey=CDS;gene=psaA;part=2;product=photosystem I P700 chlorophyll a apoprotein A1;protein_id=ACS95112.1;transl_table=11
+GQ250046.1	Genbank	CDS	199930	201699	.	-	0	ID=cds-ACS95112.1;Parent=gene-psaA;Dbxref=NCBI_GP:ACS95112.1;Name=ACS95112.1;exception=trans-splicing;gbkey=CDS;gene=psaA;part=3;product=photosystem I P700 chlorophyll a apoprotein A1;protein_id=ACS95112.1;transl_table=11
+GQ250046.1	Genbank	CDS	199340	199555	.	-	0	ID=cds-ACS95112.1;Parent=gene-psaA;Dbxref=NCBI_GP:ACS95112.1;Name=ACS95112.1;exception=trans-splicing;gbkey=CDS;gene=psaA;part=4;product=photosystem I P700 chlorophyll a apoprotein A1;protein_id=ACS95112.1;transl_table=11
+GQ250046.1	Genbank	exon	16718	16807	.	+	.	ID=id-psaA-1;Parent=gene-psaA;exon_number=1;gbkey=exon;gene=psaA;number=1
+GQ250046.1	Genbank	exon	48436	48615	.	-	.	ID=id-psaA-2;Parent=gene-psaA;exon_number=2;gbkey=exon;gene=psaA;number=2
+GQ250046.1	Genbank	exon	199340	199555	.	-	.	ID=id-psaA-4;Parent=gene-psaA;exon_number=4;gbkey=exon;gene=psaA;number=4
+GQ250046.1	Genbank	exon	199930	201699	.	-	.	ID=id-psaA-3;Parent=gene-psaA;exon_number=3;gbkey=exon;gene=psaA;number=3
+GQ250046.1	Genbank	intron	48616	48682	.	-	.	ID=id-psaA;Parent=gene-psaA;Note=group II intron;exon_number=1;gbkey=intron;gene=psaA;number=1
+GQ250046.1	Genbank	intron	199556	199929	.	-	.	ID=id-psaA-5;Parent=gene-psaA;Note=group I intron;exon_number=3;gbkey=intron;gene=psaA;number=3
+GQ250046.1	Genbank	intron	201718	201758	.	-	.	ID=id-psaA-6;Parent=gene-psaA;Note=group II intron;exon_number=2;gbkey=intron;gene=psaA;number=2
+GQ250046.1	Genbank	gene	17714	18196	.	-	.	ID=gene-petD;Name=petD;gbkey=Gene;gene=petD;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	17714	18196	.	-	0	ID=cds-ACS95036.1;Parent=gene-petD;Dbxref=NCBI_GP:ACS95036.1;Name=ACS95036.1;gbkey=CDS;gene=petD;product=cytochrome b6/f complex subunit 4;protein_id=ACS95036.1;transl_table=11
+GQ250046.1	Genbank	gene	19438	20301	.	-	.	ID=gene-petA;Name=petA;end_range=20301,.;gbkey=Gene;gene=petA;gene_biotype=protein_coding;partial=true
+GQ250046.1	Genbank	CDS	19438	20301	.	-	0	ID=cds-ACS95037.1;Parent=gene-petA;Dbxref=NCBI_GP:ACS95037.1;Name=ACS95037.1;Note=start codon not determined;end_range=20301,.;gbkey=CDS;gene=petA;partial=true;product=cytochrome f;protein_id=ACS95037.1;transl_table=11
+GQ250046.1	Genbank	gene	21455	26866	.	-	.	ID=gene-rpoC1;Name=rpoC1;gbkey=Gene;gene=rpoC1;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	21455	26866	.	-	0	ID=cds-ACS95038.1;Parent=gene-rpoC1;Dbxref=NCBI_GP:ACS95038.1;Name=ACS95038.1;gbkey=CDS;gene=rpoC1;product=beta' subunit of RNA polymerase;protein_id=ACS95038.1;transl_table=11
+GQ250046.1	Genbank	gene	27376	27449	.	-	.	ID=gene-trnP;Name=trnP;gbkey=Gene;gene=trnP;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	27376	27449	.	-	.	ID=rna-trnP;Parent=gene-trnP;anticodon=(pos:complement(27413..27415));codons=22;gbkey=tRNA;gene=trnP;product=tRNA-Pro
+GQ250046.1	Genbank	exon	27376	27449	.	-	.	ID=exon-trnP-1;Parent=rna-trnP;anticodon=(pos:complement(27413..27415));codons=22;gbkey=tRNA;gene=trnP;product=tRNA-Pro
+GQ250046.1	Genbank	gene	27806	27877	.	-	.	ID=gene-trnV;Name=trnV;gbkey=Gene;gene=trnV;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	27806	27877	.	-	.	ID=rna-trnV;Parent=gene-trnV;anticodon=(pos:complement(27843..27845));codons=50;gbkey=tRNA;gene=trnV;product=tRNA-Val
+GQ250046.1	Genbank	exon	27806	27877	.	-	.	ID=exon-trnV-1;Parent=rna-trnV;anticodon=(pos:complement(27843..27845));codons=50;gbkey=tRNA;gene=trnV;product=tRNA-Val
+GQ250046.1	Genbank	gene	28578	29834	.	-	.	ID=gene-tufA;Name=tufA;gbkey=Gene;gene=tufA;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	28578	29834	.	-	0	ID=cds-ACS95039.1;Parent=gene-tufA;Dbxref=NCBI_GP:ACS95039.1;Name=ACS95039.1;gbkey=CDS;gene=tufA;product=elongation factor Tu;protein_id=ACS95039.1;transl_table=11
+GQ250046.1	Genbank	gene	30129	30201	.	-	.	ID=gene-trnE;Name=trnE;gbkey=Gene;gene=trnE;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	30129	30201	.	-	.	ID=rna-trnE;Parent=gene-trnE;anticodon=(pos:complement(30165..30167));codons=58;gbkey=tRNA;gene=trnE;product=tRNA-Glu
+GQ250046.1	Genbank	exon	30129	30201	.	-	.	ID=exon-trnE-1;Parent=rna-trnE;anticodon=(pos:complement(30165..30167));codons=58;gbkey=tRNA;gene=trnE;product=tRNA-Glu
+GQ250046.1	Genbank	gene	30494	30607	.	-	.	ID=gene-rpl36;Name=rpl36;gbkey=Gene;gene=rpl36;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	30494	30607	.	-	0	ID=cds-ACS95040.1;Parent=gene-rpl36;Dbxref=NCBI_GP:ACS95040.1;Name=ACS95040.1;gbkey=CDS;gene=rpl36;product=ribosomal protein L36;protein_id=ACS95040.1;transl_table=11
+GQ250046.1	Genbank	sequence_feature	31503	31548	.	-	.	ID=id-GQ250046.1:31503..31548;Note=putative group II intron;gbkey=misc_feature
+GQ250046.1	Genbank	gene	32333	32980	.	-	.	ID=gene-petB;Name=petB;gbkey=Gene;gene=petB;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	32333	32980	.	-	0	ID=cds-ACS95041.1;Parent=gene-petB;Dbxref=NCBI_GP:ACS95041.1;Name=ACS95041.1;gbkey=CDS;gene=petB;product=cytochrome b6;protein_id=ACS95041.1;transl_table=11
+GQ250046.1	Genbank	gene	33095	33166	.	-	.	ID=gene-trnH;Name=trnH;gbkey=Gene;gene=trnH;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	33095	33166	.	-	.	ID=rna-trnH;Parent=gene-trnH;anticodon=(pos:complement(33132..33134));codons=25;gbkey=tRNA;gene=trnH;product=tRNA-His
+GQ250046.1	Genbank	exon	33095	33166	.	-	.	ID=exon-trnH-1;Parent=rna-trnH;anticodon=(pos:complement(33132..33134));codons=25;gbkey=tRNA;gene=trnH;product=tRNA-His
+GQ250046.1	Genbank	gene	33885	34274	.	-	.	ID=gene-rps12;Name=rps12;gbkey=Gene;gene=rps12;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	33885	34274	.	-	0	ID=cds-ACS95042.1;Parent=gene-rps12;Dbxref=NCBI_GP:ACS95042.1;Name=ACS95042.1;gbkey=CDS;gene=rps12;product=ribosomal protein S12;protein_id=ACS95042.1;transl_table=11
+GQ250046.1	Genbank	gene	34826	34951	.	-	.	ID=gene-psaJ;Name=psaJ;gbkey=Gene;gene=psaJ;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	34826	34951	.	-	0	ID=cds-ACS95043.1;Parent=gene-psaJ;Dbxref=NCBI_GP:ACS95043.1;Name=ACS95043.1;gbkey=CDS;gene=psaJ;product=photosystem I subunit IX;protein_id=ACS95043.1;transl_table=11
+GQ250046.1	Genbank	sequence_feature	36893	37069	.	+	.	ID=id-GQ250046.1:36893..37069;Note=putative group II intron%3B similar to intron-encoded reverse-transcriptase;gbkey=misc_feature
+GQ250046.1	Genbank	sequence_feature	38621	41087	.	-	.	ID=id-GQ250046.1:38621..41087;Note=putative group I intron%3B similar to intron-encoded exonuclease;gbkey=misc_feature
+GQ250046.1	Genbank	gene	43959	44678	.	-	.	ID=gene-atpI;Name=atpI;gbkey=Gene;gene=atpI;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	43959	44678	.	-	0	ID=cds-ACS95044.1;Parent=gene-atpI;Dbxref=NCBI_GP:ACS95044.1;Name=ACS95044.1;gbkey=CDS;gene=atpI;product=ATP synthase CF0 A subunit;protein_id=ACS95044.1;transl_table=11
+GQ250046.1	Genbank	gene	46130	46258	.	-	.	ID=gene-psbJ;Name=psbJ;gbkey=Gene;gene=psbJ;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	46130	46258	.	-	0	ID=cds-ACS95045.1;Parent=gene-psbJ;Dbxref=NCBI_GP:ACS95045.1;Name=ACS95045.1;gbkey=CDS;gene=psbJ;product=photosystem II protein J;protein_id=ACS95045.1;transl_table=11
+GQ250046.1	Genbank	gene	49550	49622	.	-	.	ID=gene-trnM;Name=trnM;gbkey=Gene;gene=trnM;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	49550	49622	.	-	.	ID=rna-trnM;Parent=gene-trnM;anticodon=(pos:complement(49587..49589));codons=35;gbkey=tRNA;gene=trnM;product=tRNA-Met
+GQ250046.1	Genbank	exon	49550	49622	.	-	.	ID=exon-trnM-1;Parent=rna-trnM;anticodon=(pos:complement(49587..49589));codons=35;gbkey=tRNA;gene=trnM;product=tRNA-Met
+GQ250046.1	Genbank	gene	50103	50174	.	-	.	ID=gene-trnN;Name=trnN;gbkey=Gene;gene=trnN;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	50103	50174	.	-	.	ID=rna-trnN;Parent=gene-trnN;anticodon=(pos:complement(50140..50142));codons=41;gbkey=tRNA;gene=trnN;product=tRNA-Asn
+GQ250046.1	Genbank	exon	50103	50174	.	-	.	ID=exon-trnN-1;Parent=rna-trnN;anticodon=(pos:complement(50140..50142));codons=41;gbkey=tRNA;gene=trnN;product=tRNA-Asn
+GQ250046.1	Genbank	gene	50727	52928	.	+	.	ID=gene-chlL;Name=chlL;gbkey=Gene;gene=chlL;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	50727	51602	.	+	0	ID=cds-ACS95046.1;Parent=gene-chlL;Dbxref=NCBI_GP:ACS95046.1;Name=ACS95046.1;gbkey=CDS;gene=chlL;product=photochlorophyllide reductase subunit L;protein_id=ACS95046.1;transl_table=11
+GQ250046.1	Genbank	exon	50727	51602	.	+	.	ID=id-chlL-1;Parent=gene-chlL;exon_number=1;gbkey=exon;gene=chlL;number=1
+GQ250046.1	Genbank	intron	51603	52928	.	+	.	ID=id-chlL;Parent=gene-chlL;Note=group I intron;exon_number=1;gbkey=intron;gene=chlL;number=1
+GQ250046.1	Genbank	gene	51624	52928	.	+	.	ID=gene-orf435;Name=orf435;gbkey=Gene;gene=orf435;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	51624	52928	.	+	0	ID=cds-ACS95047.1;Parent=gene-orf435;Dbxref=NCBI_GP:ACS95047.1;Name=ACS95047.1;Note=intronic open reading frame;gbkey=CDS;gene=orf435;product=GIY-YIG homing endonuclease;protein_id=ACS95047.1;transl_table=11
+GQ250046.1	Genbank	sequence_feature	55842	56084	.	+	.	ID=id-GQ250046.1:55842..56084;Note=putative group I intron%3B similar to intron-encoded site-specific DNA endonuclease;gbkey=misc_feature
+GQ250046.1	Genbank	pseudogene	57538	57972	.	+	.	ID=gene-chlL-2;Name=chlL;gbkey=Gene;gene=chlL;gene_biotype=pseudogene;pseudo=true
+GQ250046.1	Genbank	gene	59028	59109	.	+	.	ID=gene-trnL;Name=trnL;gbkey=Gene;gene=trnL;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	59028	59109	.	+	.	ID=rna-trnL;Parent=gene-trnL;anticodon=(pos:59062..59064);codons=18;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+GQ250046.1	Genbank	exon	59028	59109	.	+	.	ID=exon-trnL-1;Parent=rna-trnL;anticodon=(pos:59062..59064);codons=18;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+GQ250046.1	Genbank	gene	59638	61221	.	+	.	ID=gene-clpP;Name=clpP;gbkey=Gene;gene=clpP;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	59638	61221	.	+	0	ID=cds-ACS95048.1;Parent=gene-clpP;Dbxref=NCBI_GP:ACS95048.1;Name=ACS95048.1;gbkey=CDS;gene=clpP;product=ATP-dependent Clp protease proteolytic subunit;protein_id=ACS95048.1;transl_table=11
+GQ250046.1	Genbank	gene	62479	62552	.	-	.	ID=gene-trnM-2;Name=trnM;gbkey=Gene;gene=trnM;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	62479	62552	.	-	.	ID=rna-trnM-2;Parent=gene-trnM-2;anticodon=(pos:complement(62516..62518));codons=35;gbkey=tRNA;gene=trnM;product=tRNA-Met
+GQ250046.1	Genbank	exon	62479	62552	.	-	.	ID=exon-trnM-2-1;Parent=rna-trnM-2;anticodon=(pos:complement(62516..62518));codons=35;gbkey=tRNA;gene=trnM;product=tRNA-Met
+GQ250046.1	Genbank	gene	63375	63473	.	-	.	ID=gene-petL;Name=petL;gbkey=Gene;gene=petL;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	63375	63473	.	-	0	ID=cds-ACS95049.1;Parent=gene-petL;Dbxref=NCBI_GP:ACS95049.1;Name=ACS95049.1;gbkey=CDS;gene=petL;product=subunit VI of cytochrome b6/f complex;protein_id=ACS95049.1;transl_table=11
+GQ250046.1	Genbank	gene	64078	64323	.	-	.	ID=gene-psaC;Name=psaC;gbkey=Gene;gene=psaC;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	64078	64323	.	-	0	ID=cds-ACS95050.1;Parent=gene-psaC;Dbxref=NCBI_GP:ACS95050.1;Name=ACS95050.1;gbkey=CDS;gene=psaC;product=photosystem I subunit VII;protein_id=ACS95050.1;transl_table=11
+GQ250046.1	Genbank	gene	64376	64447	.	-	.	ID=gene-trnF;Name=trnF;gbkey=Gene;gene=trnF;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	64376	64447	.	-	.	ID=rna-trnF;Parent=gene-trnF;anticodon=(pos:complement(64413..64415));codons=1;gbkey=tRNA;gene=trnF;product=tRNA-Phe
+GQ250046.1	Genbank	exon	64376	64447	.	-	.	ID=exon-trnF-1;Parent=rna-trnF;anticodon=(pos:complement(64413..64415));codons=1;gbkey=tRNA;gene=trnF;product=tRNA-Phe
+GQ250046.1	Genbank	gene	64789	67542	.	-	.	ID=gene-psbD;Name=psbD;gbkey=Gene;gene=psbD;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	66976	67542	.	-	0	ID=cds-ACS95051.1;Parent=gene-psbD;Dbxref=NCBI_GP:ACS95051.1;Name=ACS95051.1;gbkey=CDS;gene=psbD;product=photosystem II protein D2;protein_id=ACS95051.1;transl_table=11
+GQ250046.1	Genbank	CDS	64789	65280	.	-	0	ID=cds-ACS95051.1;Parent=gene-psbD;Dbxref=NCBI_GP:ACS95051.1;Name=ACS95051.1;gbkey=CDS;gene=psbD;product=photosystem II protein D2;protein_id=ACS95051.1;transl_table=11
+GQ250046.1	Genbank	exon	64789	65280	.	-	.	ID=id-psbD-2;Parent=gene-psbD;exon_number=2;gbkey=exon;gene=psbD;number=2
+GQ250046.1	Genbank	exon	66976	67542	.	-	.	ID=id-psbD-1;Parent=gene-psbD;exon_number=1;gbkey=exon;gene=psbD;number=1
+GQ250046.1	Genbank	intron	65281	66975	.	-	.	ID=id-psbD;Parent=gene-psbD;Note=group I intron;exon_number=1;gbkey=intron;gene=psbD;number=1
+GQ250046.1	Genbank	gene	65643	66590	.	-	.	ID=gene-orf316;Name=orf316;gbkey=Gene;gene=orf316;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	65643	66590	.	-	0	ID=cds-ACS95052.1;Parent=gene-orf316;Dbxref=NCBI_GP:ACS95052.1;Name=ACS95052.1;Note=intronic open reading frame (unknown class);gbkey=CDS;gene=orf316;product=putative intron-encoded protein;protein_id=ACS95052.1;transl_table=11
+GQ250046.1	Genbank	gene	67710	67782	.	-	.	ID=gene-trnT;Name=trnT;gbkey=Gene;gene=trnT;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	67710	67782	.	-	.	ID=rna-trnT;Parent=gene-trnT;anticodon=(pos:complement(67747..67749));codons=38;gbkey=tRNA;gene=trnT;product=tRNA-Thr
+GQ250046.1	Genbank	exon	67710	67782	.	-	.	ID=exon-trnT-1;Parent=rna-trnT;anticodon=(pos:complement(67747..67749));codons=38;gbkey=tRNA;gene=trnT;product=tRNA-Thr
+GQ250046.1	Genbank	sequence_feature	69859	69904	.	-	.	ID=id-GQ250046.1:69859..69904;Note=putative group II intron;gbkey=misc_feature
+GQ250046.1	Genbank	gene	70742	71500	.	-	.	ID=gene-rps4;Name=rps4;gbkey=Gene;gene=rps4;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	70742	71500	.	-	0	ID=cds-ACS95053.1;Parent=gene-rps4;Dbxref=NCBI_GP:ACS95053.1;Name=ACS95053.1;gbkey=CDS;gene=rps4;product=ribosomal protein S4;protein_id=ACS95053.1;transl_table=11
+GQ250046.1	Genbank	gene	71545	71617	.	-	.	ID=gene-trnG;Name=trnG;gbkey=Gene;gene=trnG;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	71545	71617	.	-	.	ID=rna-trnG;Parent=gene-trnG;anticodon=(pos:complement(71582..71584));codons=61;gbkey=tRNA;gene=trnG;product=tRNA-Gly
+GQ250046.1	Genbank	exon	71545	71617	.	-	.	ID=exon-trnG-1;Parent=rna-trnG;anticodon=(pos:complement(71582..71584));codons=61;gbkey=tRNA;gene=trnG;product=tRNA-Gly
+GQ250046.1	Genbank	gene	73725	73798	.	+	.	ID=gene-trnR;Name=trnR;gbkey=Gene;gene=trnR;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	73725	73798	.	+	.	ID=rna-trnR;Parent=gene-trnR;anticodon=(pos:73759..73761);codons=28;gbkey=tRNA;gene=trnR;product=tRNA-Arg
+GQ250046.1	Genbank	exon	73725	73798	.	+	.	ID=exon-trnR-1;Parent=rna-trnR;anticodon=(pos:73759..73761);codons=28;gbkey=tRNA;gene=trnR;product=tRNA-Arg
+GQ250046.1	Genbank	gene	75105	75191	.	-	.	ID=gene-trnS;Name=trnS;gbkey=Gene;gene=trnS;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	75105	75191	.	-	.	ID=rna-trnS;Parent=gene-trnS;anticodon=(pos:complement(75155..75157));codons=6;gbkey=tRNA;gene=trnS;product=tRNA-Ser
+GQ250046.1	Genbank	exon	75105	75191	.	-	.	ID=exon-trnS-1;Parent=rna-trnS;anticodon=(pos:complement(75155..75157));codons=6;gbkey=tRNA;gene=trnS;product=tRNA-Ser
+GQ250046.1	Genbank	sequence_feature	76999	77047	.	+	.	ID=id-GQ250046.1:76999..77047;Note=putative group II intron;gbkey=misc_feature
+GQ250046.1	Genbank	sequence_feature	77277	77323	.	+	.	ID=id-GQ250046.1:77277..77323;Note=putative group II intron;gbkey=misc_feature
+GQ250046.1	Genbank	gene	77739	78077	.	+	.	ID=gene-rpl20;Name=rpl20;gbkey=Gene;gene=rpl20;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	77739	78077	.	+	0	ID=cds-ACS95054.1;Parent=gene-rpl20;Dbxref=NCBI_GP:ACS95054.1;Name=ACS95054.1;gbkey=CDS;gene=rpl20;product=ribosomal protein L20;protein_id=ACS95054.1;transl_table=11
+GQ250046.1	Genbank	gene	79628	79699	.	+	.	ID=gene-trnC;Name=trnC;gbkey=Gene;gene=trnC;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	79628	79699	.	+	.	ID=rna-trnC;Parent=gene-trnC;anticodon=(pos:79660..79662);codons=13;gbkey=tRNA;gene=trnC;product=tRNA-Cys
+GQ250046.1	Genbank	exon	79628	79699	.	+	.	ID=exon-trnC-1;Parent=rna-trnC;anticodon=(pos:79660..79662);codons=13;gbkey=tRNA;gene=trnC;product=tRNA-Cys
+GQ250046.1	Genbank	gene	80011	80151	.	+	.	ID=gene-psbK;Name=psbK;gbkey=Gene;gene=psbK;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	80011	80151	.	+	0	ID=cds-ACS95055.1;Parent=gene-psbK;Dbxref=NCBI_GP:ACS95055.1;Name=ACS95055.1;gbkey=CDS;gene=psbK;product=photosystem II protein K;protein_id=ACS95055.1;transl_table=11
+GQ250046.1	Genbank	gene	80678	80750	.	+	.	ID=gene-trnG-2;Name=trnG;gbkey=Gene;gene=trnG;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	80678	80750	.	+	.	ID=rna-trnG-2;Parent=gene-trnG-2;gbkey=tRNA;gene=trnG;product=tRNA-Gly
+GQ250046.1	Genbank	exon	80678	80750	.	+	.	ID=exon-trnG-2-1;Parent=rna-trnG-2;gbkey=tRNA;gene=trnG;product=tRNA-Gly
+GQ250046.1	Genbank	gene	81500	81572	.	+	.	ID=gene-trnW;Name=trnW;gbkey=Gene;gene=trnW;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	81500	81572	.	+	.	ID=rna-trnW;Parent=gene-trnW;anticodon=(pos:81533..81535);codons=15;gbkey=tRNA;gene=trnW;product=tRNA-Trp
+GQ250046.1	Genbank	exon	81500	81572	.	+	.	ID=exon-trnW-1;Parent=rna-trnW;anticodon=(pos:81533..81535);codons=15;gbkey=tRNA;gene=trnW;product=tRNA-Trp
+GQ250046.1	Genbank	gene	83203	86423	.	+	.	ID=gene-atpA;Name=atpA;gbkey=Gene;gene=atpA;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	83203	83694	.	+	0	ID=cds-ACS95056.1;Parent=gene-atpA;Dbxref=NCBI_GP:ACS95056.1;Name=ACS95056.1;gbkey=CDS;gene=atpA;product=ATP synthase CF1 alpha subunit;protein_id=ACS95056.1;transl_table=11
+GQ250046.1	Genbank	CDS	85401	86423	.	+	0	ID=cds-ACS95056.1;Parent=gene-atpA;Dbxref=NCBI_GP:ACS95056.1;Name=ACS95056.1;gbkey=CDS;gene=atpA;product=ATP synthase CF1 alpha subunit;protein_id=ACS95056.1;transl_table=11
+GQ250046.1	Genbank	exon	83203	83694	.	+	.	ID=id-atpA-1;Parent=gene-atpA;exon_number=1;gbkey=exon;gene=atpA;number=1
+GQ250046.1	Genbank	exon	85401	86423	.	+	.	ID=id-atpA-2;Parent=gene-atpA;exon_number=2;gbkey=exon;gene=atpA;number=2
+GQ250046.1	Genbank	intron	83695	85400	.	+	.	ID=id-atpA;Parent=gene-atpA;Note=group I intron;exon_number=1;gbkey=intron;gene=atpA;number=1
+GQ250046.1	Genbank	gene	84517	85347	.	+	.	ID=gene-orf277;Name=orf277;gbkey=Gene;gene=orf277;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	84517	85347	.	+	0	ID=cds-ACS95057.1;Parent=gene-orf277;Dbxref=NCBI_GP:ACS95057.1;Name=ACS95057.1;Note=intronic open reading frame;gbkey=CDS;gene=orf277;product=LAGLIDADG homing endonuclease;protein_id=ACS95057.1;transl_table=11
+GQ250046.1	Genbank	gene	87252	87365	.	+	.	ID=gene-psbI;Name=psbI;gbkey=Gene;gene=psbI;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	87252	87365	.	+	0	ID=cds-ACS95058.1;Parent=gene-psbI;Dbxref=NCBI_GP:ACS95058.1;Name=ACS95058.1;gbkey=CDS;gene=psbI;product=photosystem II protein I;protein_id=ACS95058.1;transl_table=11
+GQ250046.1	Genbank	gene	88699	90483	.	+	.	ID=gene-cemA;Name=cemA;gbkey=Gene;gene=cemA;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	88699	90483	.	+	0	ID=cds-ACS95059.1;Parent=gene-cemA;Dbxref=NCBI_GP:ACS95059.1;Name=ACS95059.1;gbkey=CDS;gene=cemA;product=envelope membrane protein;protein_id=ACS95059.1;transl_table=11
+GQ250046.1	Genbank	gene	92501	92851	.	+	.	ID=gene-rpl23;Name=rpl23;gbkey=Gene;gene=rpl23;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	92501	92851	.	+	0	ID=cds-ACS95060.1;Parent=gene-rpl23;Dbxref=NCBI_GP:ACS95060.1;Name=ACS95060.1;gbkey=CDS;gene=rpl23;product=ribosomal protein L23;protein_id=ACS95060.1;transl_table=11
+GQ250046.1	Genbank	gene	94625	95452	.	+	.	ID=gene-rpl2;Name=rpl2;gbkey=Gene;gene=rpl2;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	94625	95452	.	+	0	ID=cds-ACS95061.1;Parent=gene-rpl2;Dbxref=NCBI_GP:ACS95061.1;Name=ACS95061.1;gbkey=CDS;gene=rpl2;product=ribosomal protein L2;protein_id=ACS95061.1;transl_table=11
+GQ250046.1	Genbank	gene	96297	96575	.	+	.	ID=gene-rps19;Name=rps19;gbkey=Gene;gene=rps19;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	96297	96575	.	+	0	ID=cds-ACS95062.1;Parent=gene-rps19;Dbxref=NCBI_GP:ACS95062.1;Name=ACS95062.1;gbkey=CDS;gene=rps19;product=ribosomal protein S19;protein_id=ACS95062.1;transl_table=11
+GQ250046.1	Genbank	gene	97701	100405	.	+	.	ID=gene-atpB;Name=atpB;gbkey=Gene;gene=atpB;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	97701	99143	.	+	0	ID=cds-ACS95063.1;Parent=gene-atpB;Dbxref=NCBI_GP:ACS95063.1;Name=ACS95063.1;gbkey=CDS;gene=atpB;product=ATP synthase CF1 beta subunit;protein_id=ACS95063.1;transl_table=11
+GQ250046.1	Genbank	exon	97701	99143	.	+	.	ID=id-atpB-1;Parent=gene-atpB;exon_number=1;gbkey=exon;gene=atpB;number=1
+GQ250046.1	Genbank	intron	99144	100405	.	+	.	ID=id-atpB;Parent=gene-atpB;Note=group I intron;exon_number=1;gbkey=intron;gene=atpB;number=1
+GQ250046.1	Genbank	gene	99284	100405	.	+	.	ID=gene-orf374;Name=orf374;gbkey=Gene;gene=orf374;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	99284	100405	.	+	0	ID=cds-ACS95064.1;Parent=gene-orf374;Dbxref=NCBI_GP:ACS95064.1;Name=ACS95064.1;Note=intronic open reading frame;gbkey=CDS;gene=orf374;product=GIY-YIG homing endonuclease;protein_id=ACS95064.1;transl_table=11
+GQ250046.1	Genbank	sequence_feature	104255	104932	.	+	.	ID=id-GQ250046.1:104255..104932;Note=putative group I intron%3B similar to intron-encoded GIY-YIG homing endonuclease;gbkey=misc_feature
+GQ250046.1	Genbank	pseudogene	105597	105836	.	+	.	ID=gene-atpB-2;Name=atpB;gbkey=Gene;gene=atpB;gene_biotype=pseudogene;pseudo=true
+GQ250046.1	Genbank	gene	107243	117787	.	+	.	ID=gene-ftsH;Name=ftsH;gbkey=Gene;gene=ftsH;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	107243	117787	.	+	0	ID=cds-ACS95065.1;Parent=gene-ftsH;Dbxref=NCBI_GP:ACS95065.1;Name=ACS95065.1;gbkey=CDS;gene=ftsH;product=cell division protein;protein_id=ACS95065.1;transl_table=11
+GQ250046.1	Genbank	gene	119192	122936	.	+	.	ID=gene-psbC;Name=psbC;gbkey=Gene;gene=psbC;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	119192	119734	.	+	0	ID=cds-ACS95066.1;Parent=gene-psbC;Dbxref=NCBI_GP:ACS95066.1;Name=ACS95066.1;gbkey=CDS;gene=psbC;product=photosystem II 44 kDa protein;protein_id=ACS95066.1;transl_table=11
+GQ250046.1	Genbank	CDS	120878	121216	.	+	0	ID=cds-ACS95066.1;Parent=gene-psbC;Dbxref=NCBI_GP:ACS95066.1;Name=ACS95066.1;gbkey=CDS;gene=psbC;product=photosystem II 44 kDa protein;protein_id=ACS95066.1;transl_table=11
+GQ250046.1	Genbank	CDS	122433	122936	.	+	0	ID=cds-ACS95066.1;Parent=gene-psbC;Dbxref=NCBI_GP:ACS95066.1;Name=ACS95066.1;gbkey=CDS;gene=psbC;product=photosystem II 44 kDa protein;protein_id=ACS95066.1;transl_table=11
+GQ250046.1	Genbank	exon	119192	119734	.	+	.	ID=id-psbC-1;Parent=gene-psbC;exon_number=1;gbkey=exon;gene=psbC;number=1
+GQ250046.1	Genbank	exon	120878	121216	.	+	.	ID=id-psbC-2;Parent=gene-psbC;exon_number=2;gbkey=exon;gene=psbC;number=2
+GQ250046.1	Genbank	exon	122433	122936	.	+	.	ID=id-psbC-3;Parent=gene-psbC;exon_number=3;gbkey=exon;gene=psbC;number=3
+GQ250046.1	Genbank	intron	119735	120877	.	+	.	ID=id-psbC;Parent=gene-psbC;Note=group I intron;exon_number=1;gbkey=intron;gene=psbC;number=1
+GQ250046.1	Genbank	intron	121217	122432	.	+	.	ID=id-psbC-4;Parent=gene-psbC;Note=group I intron;exon_number=2;gbkey=intron;gene=psbC;number=2
+GQ250046.1	Genbank	gene	119865	120653	.	+	.	ID=gene-orf263;Name=orf263;gbkey=Gene;gene=orf263;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	119865	120653	.	+	0	ID=cds-ACS95067.1;Parent=gene-orf263;Dbxref=NCBI_GP:ACS95067.1;Name=ACS95067.1;Note=intronic open reading frame;gbkey=CDS;gene=orf263;product=GIY-YIG homing endonuclease;protein_id=ACS95067.1;transl_table=11
+GQ250046.1	Genbank	gene	121674	122033	.	+	.	ID=gene-orf130;Name=orf130;gbkey=Gene;gene=orf130;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	121674	122033	.	+	0	ID=cds-ACS95068.1;Parent=gene-orf130;Dbxref=NCBI_GP:ACS95068.1;Name=ACS95068.1;Note=intronic open reading frame;gbkey=CDS;gene=orf130;product=GIY-YIG homing endonuclease;protein_id=ACS95068.1;transl_table=11
+GQ250046.1	Genbank	gene	123404	123475	.	+	.	ID=gene-trnR-2;Name=trnR;gbkey=Gene;gene=trnR;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	123404	123475	.	+	.	ID=rna-trnR-2;Parent=gene-trnR-2;anticodon=(pos:123437..123439);codons=46;gbkey=tRNA;gene=trnR;product=tRNA-Arg
+GQ250046.1	Genbank	exon	123404	123475	.	+	.	ID=exon-trnR-2-1;Parent=rna-trnR-2;anticodon=(pos:123437..123439);codons=46;gbkey=tRNA;gene=trnR;product=tRNA-Arg
+GQ250046.1	Genbank	gene	124207	125808	.	+	.	ID=gene-chlB;Name=chlB;gbkey=Gene;gene=chlB;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	124207	125808	.	+	0	ID=cds-ACS95069.1;Parent=gene-chlB;Dbxref=NCBI_GP:ACS95069.1;Name=ACS95069.1;gbkey=CDS;gene=chlB;product=photochlorophyllide reductase subunit B;protein_id=ACS95069.1;transl_table=11
+GQ250046.1	Genbank	inverted_repeat	127340	141748	.	+	.	ID=id-GQ250046.1:127340..141748;gbkey=repeat_region;rpt_type=inverted
+GQ250046.1	Genbank	gene	128431	132019	.	+	.	ID=gene-rrnS;Name=rrnS;gbkey=Gene;gene=rrnS;gene_biotype=rRNA
+GQ250046.1	Genbank	rRNA	128431	132019	.	+	.	ID=rna-rrnS;Parent=gene-rrnS;gbkey=rRNA;gene=rrnS;product=small subunit ribosomal RNA
+GQ250046.1	Genbank	exon	128431	132019	.	+	.	ID=exon-rrnS-1;Parent=rna-rrnS;gbkey=rRNA;gene=rrnS;product=small subunit ribosomal RNA
+GQ250046.1	Genbank	exon	128431	128845	.	+	.	ID=id-rrnS-1;Parent=gene-rrnS;exon_number=1;gbkey=exon;gene=rrnS;number=1
+GQ250046.1	Genbank	exon	129372	129432	.	+	.	ID=id-rrnS-2;Parent=gene-rrnS;exon_number=2;gbkey=exon;gene=rrnS;number=2
+GQ250046.1	Genbank	exon	130145	130408	.	+	.	ID=id-rrnS-3;Parent=gene-rrnS;exon_number=3;gbkey=exon;gene=rrnS;number=3
+GQ250046.1	Genbank	exon	130915	131055	.	+	.	ID=id-rrnS-4;Parent=gene-rrnS;exon_number=4;gbkey=exon;gene=rrnS;number=4
+GQ250046.1	Genbank	exon	131564	132019	.	+	.	ID=id-rrnS-5;Parent=gene-rrnS;exon_number=5;gbkey=exon;gene=rrnS;number=5
+GQ250046.1	Genbank	intron	128846	129371	.	+	.	ID=id-rrnS;Parent=gene-rrnS;Note=group I intron;exon_number=1;gbkey=intron;gene=rrnS;number=1
+GQ250046.1	Genbank	intron	129433	130144	.	+	.	ID=id-rrnS-6;Parent=gene-rrnS;Note=group I intron;exon_number=2;gbkey=intron;gene=rrnS;number=2
+GQ250046.1	Genbank	intron	130409	130914	.	+	.	ID=id-rrnS-7;Parent=gene-rrnS;Note=group I intron;exon_number=3;gbkey=intron;gene=rrnS;number=3
+GQ250046.1	Genbank	intron	131056	131563	.	+	.	ID=id-rrnS-8;Parent=gene-rrnS;Note=group I intron;exon_number=4;gbkey=intron;gene=rrnS;number=4
+GQ250046.1	Genbank	gene	132436	132509	.	+	.	ID=gene-trnI;Name=trnI;gbkey=Gene;gene=trnI;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	132436	132509	.	+	.	ID=rna-trnI;Parent=gene-trnI;anticodon=(pos:132470..132472);codons=33;gbkey=tRNA;gene=trnI;product=tRNA-Ile
+GQ250046.1	Genbank	exon	132436	132509	.	+	.	ID=exon-trnI-1;Parent=rna-trnI;anticodon=(pos:132470..132472);codons=33;gbkey=tRNA;gene=trnI;product=tRNA-Ile
+GQ250046.1	Genbank	gene	132670	132742	.	+	.	ID=gene-trnA;Name=trnA;gbkey=Gene;gene=trnA;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	132670	132742	.	+	.	ID=rna-trnA;Parent=gene-trnA;anticodon=(pos:132703..132705);codons=54;gbkey=tRNA;gene=trnA;product=tRNA-Ala
+GQ250046.1	Genbank	exon	132670	132742	.	+	.	ID=exon-trnA-1;Parent=rna-trnA;anticodon=(pos:132703..132705);codons=54;gbkey=tRNA;gene=trnA;product=tRNA-Ala
+GQ250046.1	Genbank	gene	132869	140881	.	+	.	ID=gene-rrnL;Name=rrnL;gbkey=Gene;gene=rrnL;gene_biotype=rRNA
+GQ250046.1	Genbank	rRNA	132869	140881	.	+	.	ID=rna-rrnL;Parent=gene-rrnL;gbkey=rRNA;gene=rrnL;product=large subunit ribosomal RNA
+GQ250046.1	Genbank	exon	132869	140881	.	+	.	ID=exon-rrnL-1;Parent=rna-rrnL;gbkey=rRNA;gene=rrnL;product=large subunit ribosomal RNA
+GQ250046.1	Genbank	exon	132869	133144	.	+	.	ID=id-rrnL-1;Parent=gene-rrnL;exon_number=1;gbkey=exon;gene=rrnL;number=1
+GQ250046.1	Genbank	exon	133364	134179	.	+	.	ID=id-rrnL-2;Parent=gene-rrnL;exon_number=2;gbkey=exon;gene=rrnL;number=2
+GQ250046.1	Genbank	exon	135828	136729	.	+	.	ID=id-rrnL-3;Parent=gene-rrnL;exon_number=3;gbkey=exon;gene=rrnL;number=3
+GQ250046.1	Genbank	exon	137729	138056	.	+	.	ID=id-rrnL-4;Parent=gene-rrnL;exon_number=4;gbkey=exon;gene=rrnL;number=4
+GQ250046.1	Genbank	exon	138425	138611	.	+	.	ID=id-rrnL-5;Parent=gene-rrnL;exon_number=5;gbkey=exon;gene=rrnL;number=5
+GQ250046.1	Genbank	exon	138984	139035	.	+	.	ID=id-rrnL-6;Parent=gene-rrnL;exon_number=6;gbkey=exon;gene=rrnL;number=6
+GQ250046.1	Genbank	exon	139331	139428	.	+	.	ID=id-rrnL-7;Parent=gene-rrnL;exon_number=7;gbkey=exon;gene=rrnL;number=7
+GQ250046.1	Genbank	exon	140591	140881	.	+	.	ID=id-rrnL-8;Parent=gene-rrnL;exon_number=8;gbkey=exon;gene=rrnL;number=8
+GQ250046.1	Genbank	intron	133145	133363	.	+	.	ID=id-rrnL;Parent=gene-rrnL;Note=group I intron;exon_number=1;gbkey=intron;gene=rrnL;number=1
+GQ250046.1	Genbank	intron	134180	135827	.	+	.	ID=id-rrnL-9;Parent=gene-rrnL;Note=group I intron;exon_number=2;gbkey=intron;gene=rrnL;number=2
+GQ250046.1	Genbank	intron	136730	137728	.	+	.	ID=id-rrnL-10;Parent=gene-rrnL;Note=group I intron;exon_number=3;gbkey=intron;gene=rrnL;number=3
+GQ250046.1	Genbank	intron	138057	138424	.	+	.	ID=id-rrnL-11;Parent=gene-rrnL;Note=group I intron;exon_number=4;gbkey=intron;gene=rrnL;number=4
+GQ250046.1	Genbank	intron	138612	138983	.	+	.	ID=id-rrnL-12;Parent=gene-rrnL;Note=group I intron;exon_number=5;gbkey=intron;gene=rrnL;number=5
+GQ250046.1	Genbank	intron	139036	139330	.	+	.	ID=id-rrnL-13;Parent=gene-rrnL;Note=group I intron;exon_number=6;gbkey=intron;gene=rrnL;number=6
+GQ250046.1	Genbank	intron	139429	140590	.	+	.	ID=id-rrnL-14;Parent=gene-rrnL;Note=group I intron;exon_number=7;gbkey=intron;gene=rrnL;number=7
+GQ250046.1	Genbank	gene	134664	135782	.	+	.	ID=gene-orf373;Name=orf373;gbkey=Gene;gene=orf373;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	134664	135782	.	+	0	ID=cds-ACS95070.1;Parent=gene-orf373;Dbxref=NCBI_GP:ACS95070.1;Name=ACS95070.1;Note=intronic open reading frame;gbkey=CDS;gene=orf373;product=LAGLIDADG homing endonuclease;protein_id=ACS95070.1;transl_table=11
+GQ250046.1	Genbank	gene	136927	137631	.	+	.	ID=gene-orf235;Name=orf235;gbkey=Gene;gene=orf235;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	136927	137631	.	+	0	ID=cds-ACS95071.1;Parent=gene-orf235;Dbxref=NCBI_GP:ACS95071.1;Name=ACS95071.1;Note=intronic open reading frame;gbkey=CDS;gene=orf235;product=LAGLIDADG homing endonuclease;protein_id=ACS95071.1;transl_table=11
+GQ250046.1	Genbank	gene	139597	140289	.	+	.	ID=gene-orf231;Name=orf231;gbkey=Gene;gene=orf231;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	139597	140289	.	+	0	ID=cds-ACS95072.1;Parent=gene-orf231;Dbxref=NCBI_GP:ACS95072.1;Name=ACS95072.1;Note=intronic open reading frame;gbkey=CDS;gene=orf231;product=LAGLIDADG homing endonuclease;protein_id=ACS95072.1;transl_table=11
+GQ250046.1	Genbank	gene	140996	141116	.	+	.	ID=gene-rrn5;Name=rrn5;gbkey=Gene;gene=rrn5;gene_biotype=rRNA
+GQ250046.1	Genbank	rRNA	140996	141116	.	+	.	ID=rna-rrn5;Parent=gene-rrn5;gbkey=rRNA;gene=rrn5;product=5S ribosomal RNA
+GQ250046.1	Genbank	exon	140996	141116	.	+	.	ID=exon-rrn5-1;Parent=rna-rrn5;gbkey=rRNA;gene=rrn5;product=5S ribosomal RNA
+GQ250046.1	Genbank	sequence_feature	141749	254635	.	+	.	ID=id-GQ250046.1:141749..254635;Note=small single-copy region (SSC);gbkey=misc_feature
+GQ250046.1	Genbank	sequence_feature	142420	142459	.	-	.	ID=id-GQ250046.1:142420..142459;Note=putative group II intron;gbkey=misc_feature
+GQ250046.1	Genbank	sequence_feature	143621	144298	.	-	.	ID=id-GQ250046.1:143621..144298;Note=similar to intron-encoded matK gene;gbkey=misc_feature
+GQ250046.1	Genbank	gene	146726	146974	.	+	.	ID=gene-atpH;Name=atpH;gbkey=Gene;gene=atpH;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	146726	146974	.	+	0	ID=cds-ACS95073.1;Parent=gene-atpH;Dbxref=NCBI_GP:ACS95073.1;Name=ACS95073.1;gbkey=CDS;gene=atpH;product=ATP synthase CF0 C subunit;protein_id=ACS95073.1;transl_table=11
+GQ250046.1	Genbank	gene	148219	148743	.	+	.	ID=gene-atpF;Name=atpF;gbkey=Gene;gene=atpF;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	148219	148743	.	+	0	ID=cds-ACS95074.1;Parent=gene-atpF;Dbxref=NCBI_GP:ACS95074.1;Name=ACS95074.1;gbkey=CDS;gene=atpF;product=ATP synthase CF0 B subunit;protein_id=ACS95074.1;transl_table=11
+GQ250046.1	Genbank	gene	149096	149167	.	+	.	ID=gene-trnQ;Name=trnQ;gbkey=Gene;gene=trnQ;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	149096	149167	.	+	.	ID=rna-trnQ;Parent=gene-trnQ;anticodon=(pos:149128..149130);codons=26;gbkey=tRNA;gene=trnQ;product=tRNA-Gln
+GQ250046.1	Genbank	exon	149096	149167	.	+	.	ID=exon-trnQ-1;Parent=rna-trnQ;anticodon=(pos:149128..149130);codons=26;gbkey=tRNA;gene=trnQ;product=tRNA-Gln
+GQ250046.1	Genbank	gene	149549	149631	.	+	.	ID=gene-trnY;Name=trnY;gbkey=Gene;gene=trnY;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	149549	149631	.	+	.	ID=rna-trnY;Parent=gene-trnY;anticodon=(pos:149583..149585);codons=9;gbkey=tRNA;gene=trnY;product=tRNA-Tyr
+GQ250046.1	Genbank	exon	149549	149631	.	+	.	ID=exon-trnY-1;Parent=rna-trnY;anticodon=(pos:149583..149585);codons=9;gbkey=tRNA;gene=trnY;product=tRNA-Tyr
+GQ250046.1	Genbank	gene	150259	150651	.	+	.	ID=gene-rps11;Name=rps11;gbkey=Gene;gene=rps11;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	150259	150651	.	+	0	ID=cds-ACS95075.1;Parent=gene-rps11;Dbxref=NCBI_GP:ACS95075.1;Name=ACS95075.1;gbkey=CDS;gene=rps11;product=ribosomal protein S11;protein_id=ACS95075.1;transl_table=11
+GQ250046.1	Genbank	gene	152245	155547	.	+	.	ID=gene-psaB;Name=psaB;gbkey=Gene;gene=psaB;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	152245	153183	.	+	0	ID=cds-ACS95076.1;Parent=gene-psaB;Dbxref=NCBI_GP:ACS95076.1;Name=ACS95076.1;gbkey=CDS;gene=psaB;product=photosystem I P700 chlorophyll a apoprotein A2;protein_id=ACS95076.1;transl_table=11
+GQ250046.1	Genbank	CDS	154279	155547	.	+	0	ID=cds-ACS95076.1;Parent=gene-psaB;Dbxref=NCBI_GP:ACS95076.1;Name=ACS95076.1;gbkey=CDS;gene=psaB;product=photosystem I P700 chlorophyll a apoprotein A2;protein_id=ACS95076.1;transl_table=11
+GQ250046.1	Genbank	exon	152245	153183	.	+	.	ID=id-psaB-1;Parent=gene-psaB;exon_number=1;gbkey=exon;gene=psaB;number=1
+GQ250046.1	Genbank	exon	154279	155547	.	+	.	ID=id-psaB-2;Parent=gene-psaB;exon_number=2;gbkey=exon;gene=psaB;number=2
+GQ250046.1	Genbank	intron	153184	154278	.	+	.	ID=id-psaB;Parent=gene-psaB;Note=putative group I intron;exon_number=1;gbkey=intron;gene=psaB;number=1
+GQ250046.1	Genbank	pseudogene	153535	153897	.	+	.	ID=gene-orf121;Name=orf121;description=GIY-YIG homing endonuclease;gbkey=Gene;gene=orf121;gene_biotype=pseudogene;pseudo=true
+GQ250046.1	Genbank	gene	156472	157665	.	+	.	ID=gene-ccsA;Name=ccsA;gbkey=Gene;gene=ccsA;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	156472	157665	.	+	0	ID=cds-ACS95077.1;Parent=gene-ccsA;Dbxref=NCBI_GP:ACS95077.1;Name=ACS95077.1;gbkey=CDS;gene=ccsA;product=cytochrome c biogenesis protein;protein_id=ACS95077.1;transl_table=11
+GQ250046.1	Genbank	gene	159163	159351	.	+	.	ID=gene-psbZ;Name=psbZ;gbkey=Gene;gene=psbZ;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	159163	159351	.	+	0	ID=cds-ACS95078.1;Parent=gene-psbZ;Dbxref=NCBI_GP:ACS95078.1;Name=ACS95078.1;gbkey=CDS;gene=psbZ;product=photosystem II protein Z;protein_id=ACS95078.1;transl_table=11
+GQ250046.1	Genbank	gene	160671	160784	.	+	.	ID=gene-psbM;Name=psbM;gbkey=Gene;gene=psbM;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	160671	160784	.	+	0	ID=cds-ACS95079.1;Parent=gene-psbM;Dbxref=NCBI_GP:ACS95079.1;Name=ACS95079.1;gbkey=CDS;gene=psbM;product=M protein of photosystem II;protein_id=ACS95079.1;transl_table=11
+GQ250046.1	Genbank	gene	162143	162445	.	+	.	ID=gene-rps14;Name=rps14;gbkey=Gene;gene=rps14;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	162143	162445	.	+	0	ID=cds-ACS95080.1;Parent=gene-rps14;Dbxref=NCBI_GP:ACS95080.1;Name=ACS95080.1;gbkey=CDS;gene=rps14;product=ribosomal protein S14;protein_id=ACS95080.1;transl_table=11
+GQ250046.1	Genbank	gene	163350	163856	.	+	.	ID=gene-rps7;Name=rps7;gbkey=Gene;gene=rps7;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	163350	163856	.	+	0	ID=cds-ACS95081.1;Parent=gene-rps7;Dbxref=NCBI_GP:ACS95081.1;Name=ACS95081.1;gbkey=CDS;gene=rps7;product=ribosomal protein S7;protein_id=ACS95081.1;transl_table=11
+GQ250046.1	Genbank	gene	164634	165041	.	+	.	ID=gene-atpE;Name=atpE;gbkey=Gene;gene=atpE;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	164634	165041	.	+	0	ID=cds-ACS95082.1;Parent=gene-atpE;Dbxref=NCBI_GP:ACS95082.1;Name=ACS95082.1;gbkey=CDS;gene=atpE;product=ATP synthase CF1 epsilon subunit;protein_id=ACS95082.1;transl_table=11
+GQ250046.1	Genbank	sequence_feature	165909	166067	.	+	.	ID=id-GQ250046.1:165909..166067;Note=similar to intron-encoded reverse-transcriptase gene;gbkey=misc_feature
+GQ250046.1	Genbank	sequence_feature	167704	167747	.	+	.	ID=id-GQ250046.1:167704..167747;Note=putative group II intron;gbkey=misc_feature
+GQ250046.1	Genbank	gene	168236	169663	.	-	.	ID=gene-rbcL;Name=rbcL;gbkey=Gene;gene=rbcL;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	168236	169663	.	-	0	ID=cds-ACS95083.1;Parent=gene-rbcL;Dbxref=NCBI_GP:ACS95083.1;Name=ACS95083.1;gbkey=CDS;gene=rbcL;product=ribulose-1%2C5-bisphosphate carboxylase/oxygenase large subunit;protein_id=ACS95083.1;transl_table=11
+GQ250046.1	Genbank	gene	170388	170472	.	-	.	ID=gene-trnL-2;Name=trnL;gbkey=Gene;gene=trnL;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	170388	170472	.	-	.	ID=rna-trnL-2;Parent=gene-trnL-2;anticodon=(pos:complement(170437..170439));codons=2;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+GQ250046.1	Genbank	exon	170388	170472	.	-	.	ID=exon-trnL-2-1;Parent=rna-trnL-2;anticodon=(pos:complement(170437..170439));codons=2;gbkey=tRNA;gene=trnL;product=tRNA-Leu
+GQ250046.1	Genbank	gene	171170	171685	.	-	.	ID=gene-ycf3;Name=ycf3;gbkey=Gene;gene=ycf3;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	171170	171685	.	-	0	ID=cds-ACS95084.1;Parent=gene-ycf3;Dbxref=NCBI_GP:ACS95084.1;Name=ACS95084.1;gbkey=CDS;gene=ycf3;product=photosystem I assembly protein Ycf3;protein_id=ACS95084.1;transl_table=11
+GQ250046.1	Genbank	gene	172601	173263	.	-	.	ID=gene-ycf4;Name=ycf4;gbkey=Gene;gene=ycf4;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	172601	173263	.	-	0	ID=cds-ACS95085.1;Parent=gene-ycf4;Dbxref=NCBI_GP:ACS95085.1;Name=ACS95085.1;gbkey=CDS;gene=ycf4;product=photosystem I assembly protein Ycf4;protein_id=ACS95085.1;transl_table=11
+GQ250046.1	Genbank	gene	173734	174324	.	-	.	ID=gene-rps9;Name=rps9;gbkey=Gene;gene=rps9;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	173734	174324	.	-	0	ID=cds-ACS95086.1;Parent=gene-rps9;Dbxref=NCBI_GP:ACS95086.1;Name=ACS95086.1;gbkey=CDS;gene=rps9;product=ribosomal protein S9;protein_id=ACS95086.1;transl_table=11
+GQ250046.1	Genbank	gene	175597	175845	.	-	.	ID=gene-psbE;Name=psbE;gbkey=Gene;gene=psbE;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	175597	175845	.	-	0	ID=cds-ACS95087.1;Parent=gene-psbE;Dbxref=NCBI_GP:ACS95087.1;Name=ACS95087.1;gbkey=CDS;gene=psbE;product=photosystem II protein V;protein_id=ACS95087.1;transl_table=11
+GQ250046.1	Genbank	gene	176111	176183	.	-	.	ID=gene-trnE-2;Name=trnE;gbkey=Gene;gene=trnE;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	176111	176183	.	-	.	ID=rna-trnE-2;Parent=gene-trnE-2;anticodon=(pos:complement(176147..176149));codons=58;gbkey=tRNA;gene=trnE;product=tRNA-Glu
+GQ250046.1	Genbank	exon	176111	176183	.	-	.	ID=exon-trnE-2-1;Parent=rna-trnE-2;anticodon=(pos:complement(176147..176149));codons=58;gbkey=tRNA;gene=trnE;product=tRNA-Glu
+GQ250046.1	Genbank	gene	179189	179262	.	+	.	ID=gene-trnI-2;Name=trnI;gbkey=Gene;gene=trnI;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	179189	179262	.	+	.	ID=rna-trnI-2;Parent=gene-trnI-2;anticodon=(pos:179223..179225);codons=33;gbkey=tRNA;gene=trnI;product=tRNA-Ile
+GQ250046.1	Genbank	exon	179189	179262	.	+	.	ID=exon-trnI-2-1;Parent=rna-trnI-2;anticodon=(pos:179223..179225);codons=33;gbkey=tRNA;gene=trnI;product=tRNA-Ile
+GQ250046.1	Genbank	sequence_feature	182272	182521	.	+	.	ID=id-GQ250046.1:182272..182521;Note=similar to intron-encoded integrase;gbkey=misc_feature
+GQ250046.1	Genbank	gene	183349	183600	.	-	.	ID=gene-psbH;Name=psbH;gbkey=Gene;gene=psbH;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	183349	183600	.	-	0	ID=cds-ACS95088.1;Parent=gene-psbH;Dbxref=NCBI_GP:ACS95088.1;Name=ACS95088.1;gbkey=CDS;gene=psbH;product=photosystem II protein H;protein_id=ACS95088.1;transl_table=11
+GQ250046.1	Genbank	gene	183697	183831	.	+	.	ID=gene-psbN;Name=psbN;gbkey=Gene;gene=psbN;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	183697	183831	.	+	0	ID=cds-ACS95089.1;Parent=gene-psbN;Dbxref=NCBI_GP:ACS95089.1;Name=ACS95089.1;gbkey=CDS;gene=psbN;product=photosystem II protein N;protein_id=ACS95089.1;transl_table=11
+GQ250046.1	Genbank	gene	184206	184301	.	-	.	ID=gene-psbT;Name=psbT;gbkey=Gene;gene=psbT;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	184206	184301	.	-	0	ID=cds-ACS95090.1;Parent=gene-psbT;Dbxref=NCBI_GP:ACS95090.1;Name=ACS95090.1;gbkey=CDS;gene=psbT;product=photosystem II protein T;protein_id=ACS95090.1;transl_table=11
+GQ250046.1	Genbank	gene	185271	186797	.	-	.	ID=gene-psbB;Name=psbB;gbkey=Gene;gene=psbB;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	185271	186797	.	-	0	ID=cds-ACS95091.1;Parent=gene-psbB;Dbxref=NCBI_GP:ACS95091.1;Name=ACS95091.1;gbkey=CDS;gene=psbB;product=photosystem II 47 kDa protein;protein_id=ACS95091.1;transl_table=11
+GQ250046.1	Genbank	gene	187863	187936	.	-	.	ID=gene-trnD;Name=trnD;gbkey=Gene;gene=trnD;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	187863	187936	.	-	.	ID=rna-trnD;Parent=gene-trnD;anticodon=(pos:complement(187900..187902));codons=57;gbkey=tRNA;gene=trnD;product=tRNA-Asp
+GQ250046.1	Genbank	exon	187863	187936	.	-	.	ID=exon-trnD-1;Parent=rna-trnD;anticodon=(pos:complement(187900..187902));codons=57;gbkey=tRNA;gene=trnD;product=tRNA-Asp
+GQ250046.1	Genbank	gene	193178	195814	.	-	.	ID=gene-rps2;Name=rps2;gbkey=Gene;gene=rps2;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	193178	195814	.	-	0	ID=cds-ACS95092.1;Parent=gene-rps2;Dbxref=NCBI_GP:ACS95092.1;Name=ACS95092.1;gbkey=CDS;gene=rps2;product=ribosomal protein S2;protein_id=ACS95092.1;transl_table=11
+GQ250046.1	Genbank	gene	196591	197013	.	-	.	ID=gene-rps18;Name=rps18;gbkey=Gene;gene=rps18;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	196591	197013	.	-	0	ID=cds-ACS95093.1;Parent=gene-rps18;Dbxref=NCBI_GP:ACS95093.1;Name=ACS95093.1;gbkey=CDS;gene=rps18;product=ribosomal protein S18;protein_id=ACS95093.1;transl_table=11
+GQ250046.1	Genbank	gene	206249	212502	.	-	.	ID=gene-psbA;Name=psbA;gbkey=Gene;gene=psbA;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	212227	212502	.	-	0	ID=cds-ACS95094.1;Parent=gene-psbA;Dbxref=NCBI_GP:ACS95094.1;Name=ACS95094.1;gbkey=CDS;gene=psbA;product=photosystem II protein D1;protein_id=ACS95094.1;transl_table=11
+GQ250046.1	Genbank	CDS	210838	210945	.	-	0	ID=cds-ACS95094.1;Parent=gene-psbA;Dbxref=NCBI_GP:ACS95094.1;Name=ACS95094.1;gbkey=CDS;gene=psbA;product=photosystem II protein D1;protein_id=ACS95094.1;transl_table=11
+GQ250046.1	Genbank	CDS	210250	210279	.	-	0	ID=cds-ACS95094.1;Parent=gene-psbA;Dbxref=NCBI_GP:ACS95094.1;Name=ACS95094.1;gbkey=CDS;gene=psbA;product=photosystem II protein D1;protein_id=ACS95094.1;transl_table=11
+GQ250046.1	Genbank	CDS	208877	209032	.	-	0	ID=cds-ACS95094.1;Parent=gene-psbA;Dbxref=NCBI_GP:ACS95094.1;Name=ACS95094.1;gbkey=CDS;gene=psbA;product=photosystem II protein D1;protein_id=ACS95094.1;transl_table=11
+GQ250046.1	Genbank	CDS	207580	207909	.	-	0	ID=cds-ACS95094.1;Parent=gene-psbA;Dbxref=NCBI_GP:ACS95094.1;Name=ACS95094.1;gbkey=CDS;gene=psbA;product=photosystem II protein D1;protein_id=ACS95094.1;transl_table=11
+GQ250046.1	Genbank	CDS	206249	206410	.	-	0	ID=cds-ACS95094.1;Parent=gene-psbA;Dbxref=NCBI_GP:ACS95094.1;Name=ACS95094.1;gbkey=CDS;gene=psbA;product=photosystem II protein D1;protein_id=ACS95094.1;transl_table=11
+GQ250046.1	Genbank	exon	206249	206410	.	-	.	ID=id-psbA-6;Parent=gene-psbA;exon_number=6;gbkey=exon;gene=psbA;number=6
+GQ250046.1	Genbank	exon	207580	207909	.	-	.	ID=id-psbA-5;Parent=gene-psbA;exon_number=5;gbkey=exon;gene=psbA;number=5
+GQ250046.1	Genbank	exon	208877	209032	.	-	.	ID=id-psbA-4;Parent=gene-psbA;exon_number=4;gbkey=exon;gene=psbA;number=4
+GQ250046.1	Genbank	exon	210250	210279	.	-	.	ID=id-psbA-3;Parent=gene-psbA;exon_number=3;gbkey=exon;gene=psbA;number=3
+GQ250046.1	Genbank	exon	210838	210945	.	-	.	ID=id-psbA-2;Parent=gene-psbA;exon_number=2;gbkey=exon;gene=psbA;number=2
+GQ250046.1	Genbank	exon	212227	212502	.	-	.	ID=id-psbA-1;Parent=gene-psbA;exon_number=1;gbkey=exon;gene=psbA;number=1
+GQ250046.1	Genbank	intron	206411	207579	.	-	.	ID=id-psbA;Parent=gene-psbA;exon_number=5;gbkey=intron;gene=psbA;number=5
+GQ250046.1	Genbank	intron	207910	208876	.	-	.	ID=id-psbA-7;Parent=gene-psbA;exon_number=4;gbkey=intron;gene=psbA;number=4
+GQ250046.1	Genbank	intron	209033	210249	.	-	.	ID=id-psbA-8;Parent=gene-psbA;exon_number=3;gbkey=intron;gene=psbA;number=3
+GQ250046.1	Genbank	intron	210280	210837	.	-	.	ID=id-psbA-9;Parent=gene-psbA;exon_number=2;gbkey=intron;gene=psbA;number=2
+GQ250046.1	Genbank	intron	210946	212226	.	-	.	ID=id-psbA-10;Parent=gene-psbA;exon_number=1;gbkey=intron;gene=psbA;number=1
+GQ250046.1	Genbank	gene	206859	207434	.	-	.	ID=gene-orf192;Name=orf192;gbkey=Gene;gene=orf192;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	206859	207434	.	-	0	ID=cds-ACS95098.1;Parent=gene-orf192;Dbxref=NCBI_GP:ACS95098.1;Name=ACS95098.1;Note=intronic open reading frame;gbkey=CDS;gene=orf192;product=HNH homing endonuclease;protein_id=ACS95098.1;transl_table=11
+GQ250046.1	Genbank	gene	208290	208793	.	-	.	ID=gene-orf168;Name=orf168;gbkey=Gene;gene=orf168;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	208290	208793	.	-	0	ID=cds-ACS95097.1;Parent=gene-orf168;Dbxref=NCBI_GP:ACS95097.1;Name=ACS95097.1;Note=intronic open reading frame;gbkey=CDS;gene=orf168;product=HNH homing endonuclease;protein_id=ACS95097.1;transl_table=11
+GQ250046.1	Genbank	gene	209320	210201	.	-	.	ID=gene-orf294;Name=orf294;gbkey=Gene;gene=orf294;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	209320	210201	.	-	0	ID=cds-ACS95096.1;Parent=gene-orf294;Dbxref=NCBI_GP:ACS95096.1;Name=ACS95096.1;Note=intronic open reading frame;gbkey=CDS;gene=orf294;product=HNH homing endonuclease;protein_id=ACS95096.1;transl_table=11
+GQ250046.1	Genbank	gene	211423	212088	.	-	.	ID=gene-orf222;Name=orf222;gbkey=Gene;gene=orf222;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	211423	212088	.	-	0	ID=cds-ACS95095.1;Parent=gene-orf222;Dbxref=NCBI_GP:ACS95095.1;Name=ACS95095.1;Note=intronic open reading frame;gbkey=CDS;gene=orf222;product=HNH homing endonuclease;protein_id=ACS95095.1;transl_table=11
+GQ250046.1	Genbank	gene	213292	213363	.	-	.	ID=gene-trnK;Name=trnK;gbkey=Gene;gene=trnK;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	213292	213363	.	-	.	ID=rna-trnK;Parent=gene-trnK;anticodon=(pos:complement(213329..213331));codons=42;gbkey=tRNA;gene=trnK;product=tRNA-Lys
+GQ250046.1	Genbank	exon	213292	213363	.	-	.	ID=exon-trnK-1;Parent=rna-trnK;anticodon=(pos:complement(213329..213331));codons=42;gbkey=tRNA;gene=trnK;product=tRNA-Lys
+GQ250046.1	Genbank	gene	213920	214021	.	-	.	ID=gene-ycf12;Name=ycf12;gbkey=Gene;gene=ycf12;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	213920	214021	.	-	0	ID=cds-ACS95099.1;Parent=gene-ycf12;Dbxref=NCBI_GP:ACS95099.1;Name=ACS95099.1;gbkey=CDS;gene=ycf12;product=hypothetical chloroplast RF12;protein_id=ACS95099.1;transl_table=11
+GQ250046.1	Genbank	gene	214615	214687	.	+	.	ID=gene-trnM-3;Name=trnM;gbkey=Gene;gene=trnM;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	214615	214687	.	+	.	ID=rna-trnM-3;Parent=gene-trnM-3;anticodon=(pos:214647..214649);codons=35;gbkey=tRNA;gene=trnM;product=tRNA-Met
+GQ250046.1	Genbank	exon	214615	214687	.	+	.	ID=exon-trnM-3-1;Parent=rna-trnM-3;anticodon=(pos:214647..214649);codons=35;gbkey=tRNA;gene=trnM;product=tRNA-Met
+GQ250046.1	Genbank	gene	215687	217330	.	+	.	ID=gene-rpoA;Name=rpoA;gbkey=Gene;gene=rpoA;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	215687	217330	.	+	0	ID=cds-ACS95100.1;Parent=gene-rpoA;Dbxref=NCBI_GP:ACS95100.1;Name=ACS95100.1;gbkey=CDS;gene=rpoA;product=alpha subunit of RNA polymerase;protein_id=ACS95100.1;transl_table=11
+GQ250046.1	Genbank	gene	217586	217674	.	-	.	ID=gene-trnS-2;Name=trnS;gbkey=Gene;gene=trnS;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	217586	217674	.	-	.	ID=rna-trnS-2;Parent=gene-trnS-2;anticodon=(pos:complement(217638..217640));codons=45;gbkey=tRNA;gene=trnS;product=tRNA-Ser
+GQ250046.1	Genbank	exon	217586	217674	.	-	.	ID=exon-trnS-2-1;Parent=rna-trnS-2;anticodon=(pos:complement(217638..217640));codons=45;gbkey=tRNA;gene=trnS;product=tRNA-Ser
+GQ250046.1	Genbank	gene	218353	219930	.	-	.	ID=gene-chlN;Name=chlN;gbkey=Gene;gene=chlN;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	218353	219930	.	-	0	ID=cds-ACS95101.1;Parent=gene-chlN;Dbxref=NCBI_GP:ACS95101.1;Name=ACS95101.1;gbkey=CDS;gene=chlN;product=photochlorophyllide reductase subunit N;protein_id=ACS95101.1;transl_table=11
+GQ250046.1	Genbank	gene	221789	224563	.	-	.	ID=gene-rpoBb;Name=rpoBb;gbkey=Gene;gene=rpoBb;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	221789	224563	.	-	0	ID=cds-ACS95102.1;Parent=gene-rpoBb;Dbxref=NCBI_GP:ACS95102.1;Name=ACS95102.1;gbkey=CDS;gene=rpoBb;product=beta subunit of RNA polymerase fragment 2;protein_id=ACS95102.1;transl_table=11
+GQ250046.1	Genbank	gene	225736	228486	.	-	.	ID=gene-rpoBa;Name=rpoBa;gbkey=Gene;gene=rpoBa;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	225736	228486	.	-	0	ID=cds-ACS95103.1;Parent=gene-rpoBa;Dbxref=NCBI_GP:ACS95103.1;Name=ACS95103.1;gbkey=CDS;gene=rpoBa;product=beta subunit of RNA polymerase fragment 1;protein_id=ACS95103.1;transl_table=11
+GQ250046.1	Genbank	gene	231274	231408	.	+	.	ID=gene-psbF;Name=psbF;gbkey=Gene;gene=psbF;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	231274	231408	.	+	0	ID=cds-ACS95104.1;Parent=gene-psbF;Dbxref=NCBI_GP:ACS95104.1;Name=ACS95104.1;gbkey=CDS;gene=psbF;product=photosystem II protein VI;protein_id=ACS95104.1;transl_table=11
+GQ250046.1	Genbank	gene	231889	232005	.	+	.	ID=gene-psbL;Name=psbL;gbkey=Gene;gene=psbL;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	231889	232005	.	+	0	ID=cds-ACS95105.1;Parent=gene-psbL;Dbxref=NCBI_GP:ACS95105.1;Name=ACS95105.1;gbkey=CDS;gene=psbL;product=photosystem II protein L;protein_id=ACS95105.1;transl_table=11
+GQ250046.1	Genbank	gene	233491	233604	.	+	.	ID=gene-petG;Name=petG;gbkey=Gene;gene=petG;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	233491	233604	.	+	0	ID=cds-ACS95106.1;Parent=gene-petG;Dbxref=NCBI_GP:ACS95106.1;Name=ACS95106.1;gbkey=CDS;gene=petG;product=cytochrome b6/f complex subunit V;protein_id=ACS95106.1;transl_table=11
+GQ250046.1	Genbank	gene	234624	236744	.	+	.	ID=gene-rps3;Name=rps3;gbkey=Gene;gene=rps3;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	234624	236744	.	+	0	ID=cds-ACS95107.1;Parent=gene-rps3;Dbxref=NCBI_GP:ACS95107.1;Name=ACS95107.1;gbkey=CDS;gene=rps3;product=ribosomal protein S3;protein_id=ACS95107.1;transl_table=11
+GQ250046.1	Genbank	pseudogene	236775	236933	.	+	.	ID=gene-rps7-2;Name=rps7;gbkey=Gene;gene=rps7;gene_biotype=pseudogene;pseudo=true
+GQ250046.1	Genbank	sequence_feature	240292	242543	.	+	.	ID=id-GQ250046.1:240292..242543;Note=similar to intron-encoded GIY-YIG homing endonuclease;gbkey=misc_feature
+GQ250046.1	Genbank	gene	244279	252324	.	+	.	ID=gene-rpoC2;Name=rpoC2;gbkey=Gene;gene=rpoC2;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	244279	252324	.	+	0	ID=cds-ACS95108.1;Parent=gene-rpoC2;Dbxref=NCBI_GP:ACS95108.1;Name=ACS95108.1;gbkey=CDS;gene=rpoC2;product=beta'' subunit of RNA polymerase;protein_id=ACS95108.1;transl_table=11
+GQ250046.1	Genbank	inverted_repeat	254636	269044	.	-	.	ID=id-GQ250046.1:254636..269044;gbkey=repeat_region;rpt_type=inverted
+GQ250046.1	Genbank	gene	255268	255388	.	-	.	ID=gene-rrn5-2;Name=rrn5;gbkey=Gene;gene=rrn5;gene_biotype=rRNA
+GQ250046.1	Genbank	rRNA	255268	255388	.	-	.	ID=rna-rrn5-2;Parent=gene-rrn5-2;gbkey=rRNA;gene=rrn5;product=5S ribosomal RNA
+GQ250046.1	Genbank	exon	255268	255388	.	-	.	ID=exon-rrn5-2-1;Parent=rna-rrn5-2;gbkey=rRNA;gene=rrn5;product=5S ribosomal RNA
+GQ250046.1	Genbank	gene	255503	263515	.	-	.	ID=gene-rrnL-2;Name=rrnL;gbkey=Gene;gene=rrnL;gene_biotype=rRNA
+GQ250046.1	Genbank	rRNA	255503	263515	.	-	.	ID=rna-rrnL-2;Parent=gene-rrnL-2;gbkey=rRNA;gene=rrnL;product=large subunit ribosomal RNA
+GQ250046.1	Genbank	exon	255503	263515	.	-	.	ID=exon-rrnL-2-1;Parent=rna-rrnL-2;gbkey=rRNA;gene=rrnL;product=large subunit ribosomal RNA
+GQ250046.1	Genbank	exon	255503	255793	.	-	.	ID=id-rrnL-8-2;Parent=gene-rrnL-2;exon_number=8;gbkey=exon;gene=rrnL;number=8
+GQ250046.1	Genbank	exon	256956	257053	.	-	.	ID=id-rrnL-7-2;Parent=gene-rrnL-2;exon_number=7;gbkey=exon;gene=rrnL;number=7
+GQ250046.1	Genbank	exon	257349	257400	.	-	.	ID=id-rrnL-6-2;Parent=gene-rrnL-2;exon_number=6;gbkey=exon;gene=rrnL;number=6
+GQ250046.1	Genbank	exon	257773	257959	.	-	.	ID=id-rrnL-5-2;Parent=gene-rrnL-2;exon_number=5;gbkey=exon;gene=rrnL;number=5
+GQ250046.1	Genbank	exon	258328	258655	.	-	.	ID=id-rrnL-4-2;Parent=gene-rrnL-2;exon_number=4;gbkey=exon;gene=rrnL;number=4
+GQ250046.1	Genbank	exon	259655	260556	.	-	.	ID=id-rrnL-3-2;Parent=gene-rrnL-2;exon_number=3;gbkey=exon;gene=rrnL;number=3
+GQ250046.1	Genbank	exon	262205	263020	.	-	.	ID=id-rrnL-2-2;Parent=gene-rrnL-2;exon_number=2;gbkey=exon;gene=rrnL;number=2
+GQ250046.1	Genbank	exon	263240	263515	.	-	.	ID=id-rrnL-1-2;Parent=gene-rrnL-2;exon_number=1;gbkey=exon;gene=rrnL;number=1
+GQ250046.1	Genbank	intron	255794	256955	.	-	.	ID=id-rrnL-15;Parent=gene-rrnL-2;Note=group I intron;exon_number=7;gbkey=intron;gene=rrnL;number=7
+GQ250046.1	Genbank	intron	257054	257348	.	-	.	ID=id-rrnL-16;Parent=gene-rrnL-2;Note=group I intron;exon_number=6;gbkey=intron;gene=rrnL;number=6
+GQ250046.1	Genbank	intron	257401	257772	.	-	.	ID=id-rrnL-17;Parent=gene-rrnL-2;Note=group I intron;exon_number=5;gbkey=intron;gene=rrnL;number=5
+GQ250046.1	Genbank	intron	257960	258327	.	-	.	ID=id-rrnL-18;Parent=gene-rrnL-2;Note=group I intron;exon_number=4;gbkey=intron;gene=rrnL;number=4
+GQ250046.1	Genbank	intron	258656	259654	.	-	.	ID=id-rrnL-19;Parent=gene-rrnL-2;Note=group I intron;exon_number=3;gbkey=intron;gene=rrnL;number=3
+GQ250046.1	Genbank	intron	260557	262204	.	-	.	ID=id-rrnL-20;Parent=gene-rrnL-2;Note=group I intron;exon_number=2;gbkey=intron;gene=rrnL;number=2
+GQ250046.1	Genbank	intron	263021	263239	.	-	.	ID=id-rrnL-21;Parent=gene-rrnL-2;Note=group I intron;exon_number=1;gbkey=intron;gene=rrnL;number=1
+GQ250046.1	Genbank	gene	256095	256787	.	-	.	ID=gene-orf231-2;Name=orf231;gbkey=Gene;gene=orf231;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	256095	256787	.	-	0	ID=cds-ACS95111.1;Parent=gene-orf231-2;Dbxref=NCBI_GP:ACS95111.1;Name=ACS95111.1;Note=intronic open reading frame;gbkey=CDS;gene=orf231;product=LAGLIDADG homing endonuclease;protein_id=ACS95111.1;transl_table=11
+GQ250046.1	Genbank	gene	258753	259457	.	-	.	ID=gene-orf235-2;Name=orf235;gbkey=Gene;gene=orf235;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	258753	259457	.	-	0	ID=cds-ACS95110.1;Parent=gene-orf235-2;Dbxref=NCBI_GP:ACS95110.1;Name=ACS95110.1;Note=intronic open reading frame;gbkey=CDS;gene=orf235;product=LAGLIDADG homing endonuclease;protein_id=ACS95110.1;transl_table=11
+GQ250046.1	Genbank	gene	260602	261720	.	-	.	ID=gene-orf373-2;Name=orf373;gbkey=Gene;gene=orf373;gene_biotype=protein_coding
+GQ250046.1	Genbank	CDS	260602	261720	.	-	0	ID=cds-ACS95109.1;Parent=gene-orf373-2;Dbxref=NCBI_GP:ACS95109.1;Name=ACS95109.1;Note=intronic open reading frame;gbkey=CDS;gene=orf373;product=LAGLIDADG homing endonuclease;protein_id=ACS95109.1;transl_table=11
+GQ250046.1	Genbank	gene	263642	263714	.	-	.	ID=gene-trnA-2;Name=trnA;gbkey=Gene;gene=trnA;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	263642	263714	.	-	.	ID=rna-trnA-2;Parent=gene-trnA-2;anticodon=(pos:complement(263679..263681));codons=54;gbkey=tRNA;gene=trnA;product=tRNA-Ala
+GQ250046.1	Genbank	exon	263642	263714	.	-	.	ID=exon-trnA-2-1;Parent=rna-trnA-2;anticodon=(pos:complement(263679..263681));codons=54;gbkey=tRNA;gene=trnA;product=tRNA-Ala
+GQ250046.1	Genbank	gene	263875	263948	.	-	.	ID=gene-trnI-3;Name=trnI;gbkey=Gene;gene=trnI;gene_biotype=tRNA
+GQ250046.1	Genbank	tRNA	263875	263948	.	-	.	ID=rna-trnI-3;Parent=gene-trnI-3;anticodon=(pos:complement(263912..263914));codons=33;gbkey=tRNA;gene=trnI;product=tRNA-Ile
+GQ250046.1	Genbank	exon	263875	263948	.	-	.	ID=exon-trnI-3-1;Parent=rna-trnI-3;anticodon=(pos:complement(263912..263914));codons=33;gbkey=tRNA;gene=trnI;product=tRNA-Ile
+GQ250046.1	Genbank	gene	264365	267953	.	-	.	ID=gene-rrnS-2;Name=rrnS;gbkey=Gene;gene=rrnS;gene_biotype=rRNA
+GQ250046.1	Genbank	rRNA	264365	267953	.	-	.	ID=rna-rrnS-2;Parent=gene-rrnS-2;gbkey=rRNA;gene=rrnS;product=small subunit ribosomal RNA
+GQ250046.1	Genbank	exon	264365	267953	.	-	.	ID=exon-rrnS-2-1;Parent=rna-rrnS-2;gbkey=rRNA;gene=rrnS;product=small subunit ribosomal RNA
+GQ250046.1	Genbank	exon	264365	264820	.	-	.	ID=id-rrnS-5-2;Parent=gene-rrnS-2;exon_number=5;gbkey=exon;gene=rrnS;number=5
+GQ250046.1	Genbank	exon	265329	265469	.	-	.	ID=id-rrnS-4-2;Parent=gene-rrnS-2;exon_number=4;gbkey=exon;gene=rrnS;number=4
+GQ250046.1	Genbank	exon	265976	266239	.	-	.	ID=id-rrnS-3-2;Parent=gene-rrnS-2;exon_number=3;gbkey=exon;gene=rrnS;number=3
+GQ250046.1	Genbank	exon	266952	267012	.	-	.	ID=id-rrnS-2-2;Parent=gene-rrnS-2;exon_number=2;gbkey=exon;gene=rrnS;number=2
+GQ250046.1	Genbank	exon	267539	267953	.	-	.	ID=id-rrnS-1-2;Parent=gene-rrnS-2;exon_number=1;gbkey=exon;gene=rrnS;number=1
+GQ250046.1	Genbank	intron	264821	265328	.	-	.	ID=id-rrnS-9;Parent=gene-rrnS-2;exon_number=4;gbkey=intron;gene=rrnS;number=4
+GQ250046.1	Genbank	intron	265470	265975	.	-	.	ID=id-rrnS-10;Parent=gene-rrnS-2;exon_number=3;gbkey=intron;gene=rrnS;number=3
+GQ250046.1	Genbank	intron	266240	266951	.	-	.	ID=id-rrnS-11;Parent=gene-rrnS-2;exon_number=2;gbkey=intron;gene=rrnS;number=2
+GQ250046.1	Genbank	intron	267013	267538	.	-	.	ID=id-rrnS-12;Parent=gene-rrnS-2;exon_number=1;gbkey=intron;gene=rrnS;number=1
+

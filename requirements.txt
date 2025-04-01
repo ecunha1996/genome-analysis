@@ -1,1 +1,3 @@
 git+https://github.com/ecunha1996/GSMMutils.git
+tqdm~=4.66.4
+biopython~=1.83

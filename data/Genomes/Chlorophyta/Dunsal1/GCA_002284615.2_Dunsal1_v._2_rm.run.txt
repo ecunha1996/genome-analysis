@@ -1,0 +1,22 @@
+The repeat files provided for this assembly were generated using RepeatMasker.
+  Smit, AFA, Hubley, R & Green, P.,
+  RepeatMasker Open-3.0.
+  1996-2010 <http://www.repeatmasker.org>.
+
+VERSION:
+RepeatMasker version open-4.0.8 , sensitive mode
+run with blastp version 2.0MP-WashU [01-Jan-2006] [linux24-i786-ILP32F64 2006-01-02T05:13:21]
+RepeatMasker Combined Database: Dfam_Consensus-20181026, RepBase-20181026
+
+PARAMETERS:
+RepeatMasker -engine wublast -species 'dunaliella salina' -s -no_is -cutoff 255 -frag 20000
+
+REPEATS:
+RepeatMasker Database: RepeatMaskerLib.embl
+Version: RepeatMasker Combined Database: Dfam_Consensus-20181026, RepBase-20181026
+Species: dunaliella salina ( dunaliella salina )
+176 ancestral and ubiquitous sequence(s) with a total length of 51081 bp
+0 dunaliella salina specific repeats with a total length of 0 bp
+0 lineage specific sequence(s) with a total length of 0 bp
+--------------------------------------------------------------------------------
+
